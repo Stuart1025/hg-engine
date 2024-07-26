@@ -4520,7 +4520,7 @@ mondata SPECIES_HERACROSS, "Heracross"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SWARM, ABILITY_GUTS
+    abilities ABILITY_SKILL_LINK, ABILITY_GUTS
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_HERACROSS, "This powerful Pokémon thrusts\nits prized horn under its enemies’\nbellies, then lifts and throws them."
@@ -5329,7 +5329,7 @@ mondata SPECIES_TREECKO, "Treecko"
 
 mondata SPECIES_GROVYLE, "Grovyle"
     basestats 50, 65, 45, 95, 85, 65
-    types TYPE_GRASS, TYPE_GRASS
+    types TYPE_GRASS, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -5350,7 +5350,7 @@ mondata SPECIES_GROVYLE, "Grovyle"
 
 mondata SPECIES_SCEPTILE, "Sceptile"
     basestats 70, 85, 65, 120, 105, 85
-    types TYPE_GRASS, TYPE_GRASS
+    types TYPE_GRASS, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 3, 0, 0
