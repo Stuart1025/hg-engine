@@ -11612,7 +11612,7 @@ levelup SPECIES_MUNNA
     learnset MOVE_STORED_POWER, 1
     learnset MOVE_DEFENSE_CURL, 1
     learnset MOVE_HYPNOSIS, 4
-    learnset MOVE_PSYBEAM, 9
+    learnset MOVE_PSYBEAM, 8
     learnset MOVE_IMPRISON, 12
     learnset MOVE_MOONLIGHT, 16
     learnset MOVE_MAGIC_COAT, 20
@@ -11635,7 +11635,7 @@ levelup SPECIES_MUSHARNA
     learnset MOVE_STORED_POWER, 1
     learnset MOVE_DEFENSE_CURL, 1
     learnset MOVE_HYPNOSIS, 4
-    learnset MOVE_PSYBEAM, 9
+    learnset MOVE_PSYBEAM, 8
     learnset MOVE_IMPRISON, 12
     learnset MOVE_MOONLIGHT, 16
     learnset MOVE_MAGIC_COAT, 20
