@@ -193,14 +193,157 @@ party 47
     ballseal 0
 endparty
 
+trainerdata 249, "Don"
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass CLASS_BUG_CATCHER
+    nummons 2
+    item 0
+    item 0
+    item 0
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 249
+    ivs 0
+    abilityslot 0
+    level 5
+    pokemon SPECIES_CATERPIE
+    item 0
+    move MOVE_TACKLE
+    move MOVE_STRING_SHOT
+    move MOVE_BUG_BITE
+    move 0
+    ability ABILITY_SHIELD_DUST
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 5
+    pokemon SPECIES_WEEDLE
+    item 0
+    move MOVE_POISON_STING
+    move MOVE_STRING_SHOT
+    move MOVE_BUG_BITE
+    move 0
+    ability ABILITY_SHIELD_DUST
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/************ Route 30 - Rematches ************/
+
+trainerdata 279, "Joey"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_YOUNGSTER
+    nummons 1
+    item 0
+    item 0
+    item 0
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 279
+    ivs 0
+    abilityslot 0
+    level 34
+    pokemon SPECIES_RATICATE
+    item 0
+    move MOVE_DOUBLE_EDGE
+    move MOVE_FLAME_WHEEL
+    move MOVE_CRUNCH
+    move MOVE_SUPER_FANG
+    ability ABILITY_GUTS
+    ball ITEM_POKE_BALL
+    setivs 31, 31, 31, 31, 31, 31
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_JOLLY
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 280, "Joey"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_YOUNGSTER
+    nummons 1
+    item 0
+    item 0
+    item 0
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 280
+    ivs 0
+    abilityslot 0
+    level 40
+    pokemon SPECIES_RATICATE
+    item 0
+    move MOVE_DOUBLE_EDGE
+    move MOVE_FLAME_WHEEL
+    move MOVE_CRUNCH
+    move MOVE_SUPER_FANG
+    ability ABILITY_GUTS
+    ball ITEM_POKE_BALL
+    setivs 31, 31, 31, 31, 31, 31
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_JOLLY
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 510, "Joey"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_YOUNGSTER
+    nummons 1
+    item 0
+    item 0
+    item 0
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 510
+    ivs 0
+    abilityslot 0
+    level 54
+    pokemon SPECIES_RATICATE
+    item ITEM_FLAME_ORB
+    move MOVE_FACADE
+    move MOVE_CLOSE_COMBAT
+    move MOVE_CRUNCH
+    move MOVE_PROTECT
+    ability ABILITY_GUTS
+    ball ITEM_POKE_BALL
+    setivs 31, 31, 31, 31, 31, 31
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_JOLLY
+    shinylock 0
+    ballseal 0
+endparty
+
 trainerdata 0, "-"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PKMN_TRAINER_0
     nummons 0
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags 0
     battletype SINGLE_BATTLE
     endentry
@@ -218,10 +361,10 @@ trainerdata 1, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
     battletype SINGLE_BATTLE
     endentry
@@ -253,10 +396,10 @@ trainerdata 2, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -274,10 +417,10 @@ trainerdata 3, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -295,10 +438,10 @@ trainerdata 4, "Wade"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -337,10 +480,10 @@ trainerdata 5, "Victoria"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -372,10 +515,10 @@ trainerdata 6, "Keith"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POLICEMAN
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -393,10 +536,10 @@ trainerdata 7, "Irwin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_JUGGLER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -435,10 +578,10 @@ trainerdata 9, "Elaine"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -456,10 +599,10 @@ trainerdata 10, "Amy & Mimi"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -484,10 +627,10 @@ trainerdata 11, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_KIMONO_GIRL
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -519,10 +662,10 @@ trainerdata 12, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -554,10 +697,10 @@ trainerdata 13, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -582,10 +725,10 @@ trainerdata 14, "Duncan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BURGLAR
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -617,10 +760,10 @@ trainerdata 15, "Otis"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -652,10 +795,10 @@ trainerdata 16, "Simon"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -680,10 +823,10 @@ trainerdata 17, "Kenji"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -701,10 +844,10 @@ trainerdata 18, "Justin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -743,10 +886,10 @@ trainerdata 19, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -778,10 +921,10 @@ trainerdata 20, "Falkner"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_LEADER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -792,7 +935,7 @@ trainerdata 20, "Falkner"
         abilityslot 0
         level 9
         pokemon SPECIES_PIDGEY
-        item ITEM_NONE
+        item 0
         move MOVE_TACKLE
         move MOVE_SAND_ATTACK
         move MOVE_NONE
@@ -804,7 +947,7 @@ trainerdata 20, "Falkner"
         abilityslot 0
         level 13
         pokemon SPECIES_PIDGEOTTO
-        item ITEM_NONE
+        item 0
         move MOVE_TACKLE
         move MOVE_ROOST
         move MOVE_GUST
@@ -817,9 +960,9 @@ trainerdata 21, "Bugsy"
     trainerclass CLASS_LEADER_F
     nummons 3
     item ITEM_SUPER_POTION
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -842,7 +985,7 @@ trainerdata 21, "Bugsy"
         abilityslot 0
         level 15
         pokemon SPECIES_KAKUNA
-        item ITEM_NONE
+        item 0
         move MOVE_POISON_STING
         move MOVE_NONE
         move MOVE_NONE
@@ -854,7 +997,7 @@ trainerdata 21, "Bugsy"
         abilityslot 0
         level 15
         pokemon SPECIES_METAPOD
-        item ITEM_NONE
+        item 0
         move MOVE_TACKLE
         move MOVE_NONE
         move MOVE_NONE
@@ -866,10 +1009,10 @@ trainerdata 22, "Carrie"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -891,10 +1034,10 @@ trainerdata 23, "Larry"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -912,10 +1055,10 @@ trainerdata 24, "Alan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -933,10 +1076,10 @@ trainerdata 25, "Russel"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -968,10 +1111,10 @@ trainerdata 26, "Roland"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -989,10 +1132,10 @@ trainerdata 27, "Liz"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1010,10 +1153,10 @@ trainerdata 28, "Jake"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1057,10 +1200,10 @@ trainerdata 29, "Rod"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1087,8 +1230,8 @@ trainerdata 30, "Whitney"
     nummons 2
     item ITEM_SUPER_POTION
     item ITEM_SUPER_POTION
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1099,7 +1242,7 @@ trainerdata 30, "Whitney"
         abilityslot 0
         level 17
         pokemon SPECIES_CLEFAIRY
-        item ITEM_NONE
+        item 0
         move MOVE_DOUBLE_SLAP
         move MOVE_MIMIC
         move MOVE_ENCORE
@@ -1125,8 +1268,8 @@ trainerdata 31, "Morty"
     nummons 4
     item ITEM_HYPER_POTION
     item ITEM_HYPER_POTION
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1137,7 +1280,7 @@ trainerdata 31, "Morty"
         abilityslot 0
         level 21
         pokemon SPECIES_GASTLY
-        item ITEM_NONE
+        item 0
         move MOVE_LICK
         move MOVE_SPITE
         move MOVE_MEAN_LOOK
@@ -1149,7 +1292,7 @@ trainerdata 31, "Morty"
         abilityslot 0
         level 21
         pokemon SPECIES_HAUNTER
-        item ITEM_NONE
+        item 0
         move MOVE_HYPNOSIS
         move MOVE_DREAM_EATER
         move MOVE_CURSE
@@ -1173,7 +1316,7 @@ trainerdata 31, "Morty"
         abilityslot 0
         level 23
         pokemon SPECIES_HAUNTER
-        item ITEM_NONE
+        item 0
         move MOVE_CURSE
         move MOVE_MEAN_LOOK
         move MOVE_SUCKER_PUNCH
@@ -1187,8 +1330,8 @@ trainerdata 32, "Pryce"
     nummons 3
     item ITEM_HYPER_POTION
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1199,7 +1342,7 @@ trainerdata 32, "Pryce"
         abilityslot 0
         level 30
         pokemon SPECIES_SEEL
-        item ITEM_NONE
+        item 0
         move MOVE_SNORE
         move MOVE_HAIL
         move MOVE_ICY_WIND
@@ -1211,7 +1354,7 @@ trainerdata 32, "Pryce"
         abilityslot 0
         level 32
         pokemon SPECIES_DEWGONG
-        item ITEM_NONE
+        item 0
         move MOVE_SLEEP_TALK
         move MOVE_ICE_SHARD
         move MOVE_AURORA_BEAM
@@ -1237,8 +1380,8 @@ trainerdata 33, "Jasmine"
     nummons 3
     item ITEM_HYPER_POTION
     item ITEM_HYPER_POTION
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1249,7 +1392,7 @@ trainerdata 33, "Jasmine"
         abilityslot 0
         level 30
         pokemon SPECIES_MAGNEMITE
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDERBOLT
         move MOVE_SUPERSONIC
         move MOVE_SONIC_BOOM
@@ -1261,7 +1404,7 @@ trainerdata 33, "Jasmine"
         abilityslot 0
         level 30
         pokemon SPECIES_MAGNEMITE
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDERBOLT
         move MOVE_SUPERSONIC
         move MOVE_SONIC_BOOM
@@ -1287,8 +1430,8 @@ trainerdata 34, "Chuck"
     nummons 2
     item ITEM_HYPER_POTION
     item ITEM_HYPER_POTION
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1299,7 +1442,7 @@ trainerdata 34, "Chuck"
         abilityslot 0
         level 29
         pokemon SPECIES_PRIMEAPE
-        item ITEM_NONE
+        item 0
         move MOVE_LEER
         move MOVE_DOUBLE_TEAM
         move MOVE_FOCUS_PUNCH
@@ -1325,8 +1468,8 @@ trainerdata 35, "Clair"
     nummons 4
     item ITEM_HYPER_POTION
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1337,7 +1480,7 @@ trainerdata 35, "Clair"
         abilityslot 0
         level 38
         pokemon SPECIES_GYARADOS
-        item ITEM_NONE
+        item 0
         move MOVE_TWISTER
         move MOVE_DRAGON_RAGE
         move MOVE_BITE
@@ -1349,7 +1492,7 @@ trainerdata 35, "Clair"
         abilityslot 0
         level 38
         pokemon SPECIES_DRAGONAIR
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDER_WAVE
         move MOVE_FIRE_BLAST
         move MOVE_SLAM
@@ -1361,7 +1504,7 @@ trainerdata 35, "Clair"
         abilityslot 0
         level 38
         pokemon SPECIES_DRAGONAIR
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDER_WAVE
         move MOVE_AQUA_TAIL
         move MOVE_SLAM
@@ -1385,10 +1528,10 @@ trainerdata 36, "Joyce"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1422,9 +1565,9 @@ trainerdata 37, "Preston"
     trainerclass CLASS_GENTLEMAN
     nummons 2
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1449,10 +1592,10 @@ trainerdata 38, "Colette"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1470,10 +1613,10 @@ trainerdata 39, "Eugene"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1505,10 +1648,10 @@ trainerdata 40, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1526,10 +1669,10 @@ trainerdata 41, "Clyde"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_GUITARIST
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1547,10 +1690,10 @@ trainerdata 42, "Nathan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PSYCHIC_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1568,10 +1711,10 @@ trainerdata 43, "Chow"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1603,10 +1746,10 @@ trainerdata 44, "Derek"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_POKEFAN_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1628,10 +1771,10 @@ trainerdata 45, "Ruth"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_POKEFAN_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1653,10 +1796,10 @@ trainerdata 46, "Martha"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1690,10 +1833,10 @@ trainerdata 48, "Rob"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1718,10 +1861,10 @@ trainerdata 49, "Albert"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1746,10 +1889,10 @@ trainerdata 50, "Abe"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1767,10 +1910,10 @@ trainerdata 51, "Nico"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1802,10 +1945,10 @@ trainerdata 52, "Edmond"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1837,10 +1980,10 @@ trainerdata 53, "Jin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1858,10 +2001,10 @@ trainerdata 54, "Troy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1886,10 +2029,10 @@ trainerdata 55, "Neal"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1907,10 +2050,10 @@ trainerdata 56, "Gordon"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1928,10 +2071,10 @@ trainerdata 57, "Ralph"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1949,10 +2092,10 @@ trainerdata 58, "Arnold"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1970,10 +2113,10 @@ trainerdata 59, "Kyle"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2005,10 +2148,10 @@ trainerdata 60, "Henry"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2033,10 +2176,10 @@ trainerdata 61, "Anthony"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2061,10 +2204,10 @@ trainerdata 62, "Samuel"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2103,10 +2246,10 @@ trainerdata 63, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2124,10 +2267,10 @@ trainerdata 64, "Ian"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNGSTER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2160,10 +2303,10 @@ trainerdata 65, "Gina"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2195,10 +2338,10 @@ trainerdata 66, "Todd"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2216,10 +2359,10 @@ trainerdata 67, "Benny"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2251,10 +2394,10 @@ trainerdata 68, "Al"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2279,10 +2422,10 @@ trainerdata 69, "Josh"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2300,10 +2443,10 @@ trainerdata 70, "Samantha"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BEAUTY
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2336,10 +2479,10 @@ trainerdata 71, "Cathy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2371,10 +2514,10 @@ trainerdata 72, "Bryan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2399,10 +2542,10 @@ trainerdata 73, "Theo"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 5
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2448,10 +2591,10 @@ trainerdata 74, "Ivan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2483,10 +2626,10 @@ trainerdata 75, "Elliot"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2511,10 +2654,10 @@ trainerdata 76, "Brooke"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2536,10 +2679,10 @@ trainerdata 77, "Kim"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2557,10 +2700,10 @@ trainerdata 78, "Arnie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2578,10 +2721,10 @@ trainerdata 79, "Ken"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2606,10 +2749,10 @@ trainerdata 80, "Dirk"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POLICEMAN
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2634,10 +2777,10 @@ trainerdata 81, "Tori & Til"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -2662,10 +2805,10 @@ trainerdata 82, "Toby"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2697,10 +2840,10 @@ trainerdata 83, "Cindy"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2722,10 +2865,10 @@ trainerdata 84, "Barry"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CAMPER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2747,10 +2890,10 @@ trainerdata 85, "Paula"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2775,10 +2918,10 @@ trainerdata 86, "Randall"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2822,10 +2965,10 @@ trainerdata 87, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2843,10 +2986,10 @@ trainerdata 88, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAGE
     nummons 5
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2892,10 +3035,10 @@ trainerdata 89, "Grace"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2920,10 +3063,10 @@ trainerdata 90, "Kaylee"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2967,10 +3110,10 @@ trainerdata 91, "Susie"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3003,10 +3146,10 @@ trainerdata 92, "Denise"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3024,10 +3167,10 @@ trainerdata 93, "Kara"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3052,10 +3195,10 @@ trainerdata 94, "Wendy"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3088,10 +3231,10 @@ trainerdata 95, "Charlie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3123,10 +3266,10 @@ trainerdata 96, "George"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 6
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3179,10 +3322,10 @@ trainerdata 97, "Berke"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3200,10 +3343,10 @@ trainerdata 98, "Ronald"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3228,10 +3371,10 @@ trainerdata 99, "Matthew"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3249,10 +3392,10 @@ trainerdata 100, "Anthony"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3277,10 +3420,10 @@ trainerdata 101, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3305,10 +3448,10 @@ trainerdata 102, "Gaven"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3352,10 +3495,10 @@ trainerdata 103, "Blake"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3399,10 +3542,10 @@ trainerdata 104, "Brian"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3424,10 +3567,10 @@ trainerdata 105, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3459,10 +3602,10 @@ trainerdata 106, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3494,10 +3637,10 @@ trainerdata 107, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3529,10 +3672,10 @@ trainerdata 108, "Ryan"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3565,10 +3708,10 @@ trainerdata 109, "Alton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3600,10 +3743,10 @@ trainerdata 110, "Paulo"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3635,10 +3778,10 @@ trainerdata 111, "Mike"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3656,10 +3799,10 @@ trainerdata 112, "Cody"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3684,10 +3827,10 @@ trainerdata 113, "Jamie"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3720,10 +3863,10 @@ trainerdata 114, "Reena"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3755,10 +3898,10 @@ trainerdata 115, "Megan"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3802,10 +3945,10 @@ trainerdata 116, "Lois"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3838,10 +3981,10 @@ trainerdata 117, "Lola"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3866,10 +4009,10 @@ trainerdata 118, "Kate"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3894,10 +4037,10 @@ trainerdata 119, "Fran"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3915,10 +4058,10 @@ trainerdata 120, "Irene"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3943,10 +4086,10 @@ trainerdata 121, "Kelly"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3978,10 +4121,10 @@ trainerdata 122, "Marvin"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FISHERMAN
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4025,10 +4168,10 @@ trainerdata 123, "Tully"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4046,10 +4189,10 @@ trainerdata 124, "Wilton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4081,10 +4224,10 @@ trainerdata 125, "Edgar"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FISHERMAN
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4117,10 +4260,10 @@ trainerdata 126, "Andre"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4138,10 +4281,10 @@ trainerdata 127, "Raymond"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4180,10 +4323,10 @@ trainerdata 128, "Jonah"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4222,10 +4365,10 @@ trainerdata 129, "Shane"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4250,10 +4393,10 @@ trainerdata 130, "Beckett"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4271,10 +4414,10 @@ trainerdata 131, "Brent"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4299,10 +4442,10 @@ trainerdata 132, "Ron"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4320,10 +4463,10 @@ trainerdata 133, "Morgan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4348,10 +4491,10 @@ trainerdata 134, "Benjamin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4383,10 +4526,10 @@ trainerdata 135, "Johnny"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4418,10 +4561,10 @@ trainerdata 136, "Linda"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4465,10 +4608,10 @@ trainerdata 137, "Vance"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4493,10 +4636,10 @@ trainerdata 138, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4514,10 +4657,10 @@ trainerdata 139, "Debra"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4535,10 +4678,10 @@ trainerdata 140, "Doug"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4563,10 +4706,10 @@ trainerdata 141, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4584,10 +4727,10 @@ trainerdata 142, "Gina"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4619,10 +4762,10 @@ trainerdata 143, "Erik"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4654,10 +4797,10 @@ trainerdata 144, "Michael"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4689,10 +4832,10 @@ trainerdata 145, "Parry"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4710,10 +4853,10 @@ trainerdata 146, "Timothy"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_HIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4746,10 +4889,10 @@ trainerdata 147, "Ted"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4767,10 +4910,10 @@ trainerdata 148, "Lloyd"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4788,10 +4931,10 @@ trainerdata 149, "Dean"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4816,10 +4959,10 @@ trainerdata 150, "Sid"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4851,10 +4994,10 @@ trainerdata 151, "Erin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4879,10 +5022,10 @@ trainerdata 152, "Hope"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4900,10 +5043,10 @@ trainerdata 153, "Sharon"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4928,10 +5071,10 @@ trainerdata 154, "Bailey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 5
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4977,10 +5120,10 @@ trainerdata 155, "Anthony"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5012,10 +5155,10 @@ trainerdata 156, "Yoshi"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BLACK_BELT
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5037,10 +5180,10 @@ trainerdata 157, "Lao"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BLACK_BELT
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5062,10 +5205,10 @@ trainerdata 158, "Kiyo"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5090,10 +5233,10 @@ trainerdata 159, "Lung"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5125,10 +5268,10 @@ trainerdata 160, "Naoko"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5139,7 +5282,7 @@ trainerdata 160, "Naoko"
         abilityslot 0
         level 38
         pokemon SPECIES_ESPEON
-        item ITEM_NONE
+        item 0
         move MOVE_LAST_RESORT
         move MOVE_PSYCHIC
         move MOVE_PSYCH_UP
@@ -5151,10 +5294,10 @@ trainerdata 161, "Sayo"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5165,7 +5308,7 @@ trainerdata 161, "Sayo"
         abilityslot 0
         level 38
         pokemon SPECIES_JOLTEON
-        item ITEM_NONE
+        item 0
         move MOVE_LAST_RESORT
         move MOVE_THUNDERBOLT
         move MOVE_DOUBLE_TEAM
@@ -5177,10 +5320,10 @@ trainerdata 162, "Zuki"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5191,7 +5334,7 @@ trainerdata 162, "Zuki"
         abilityslot 0
         level 38
         pokemon SPECIES_UMBREON
-        item ITEM_NONE
+        item 0
         move MOVE_LAST_RESORT
         move MOVE_DARK_PULSE
         move MOVE_CONFUSE_RAY
@@ -5203,10 +5346,10 @@ trainerdata 163, "Kuni"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5217,7 +5360,7 @@ trainerdata 163, "Kuni"
         abilityslot 0
         level 38
         pokemon SPECIES_VAPOREON
-        item ITEM_NONE
+        item 0
         move MOVE_LAST_RESORT
         move MOVE_SURF
         move MOVE_QUICK_ATTACK
@@ -5229,10 +5372,10 @@ trainerdata 164, "Miki"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5243,7 +5386,7 @@ trainerdata 164, "Miki"
         abilityslot 0
         level 38
         pokemon SPECIES_FLAREON
-        item ITEM_NONE
+        item 0
         move MOVE_LAST_RESORT
         move MOVE_FIRE_BLAST
         move MOVE_QUICK_ATTACK
@@ -5255,10 +5398,10 @@ trainerdata 165, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5276,10 +5419,10 @@ trainerdata 166, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5297,10 +5440,10 @@ trainerdata 167, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5318,10 +5461,10 @@ trainerdata 168, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5353,10 +5496,10 @@ trainerdata 169, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5381,10 +5524,10 @@ trainerdata 170, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5416,10 +5559,10 @@ trainerdata 171, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5451,10 +5594,10 @@ trainerdata 172, "Brent"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5486,10 +5629,10 @@ trainerdata 173, "Brent"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5528,10 +5671,10 @@ trainerdata 174, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5563,10 +5706,10 @@ trainerdata 175, "Bethany"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5584,10 +5727,10 @@ trainerdata 176, "Margaret"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5605,10 +5748,10 @@ trainerdata 177, "Ethel"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5626,10 +5769,10 @@ trainerdata 178, "Jack"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5654,10 +5797,10 @@ trainerdata 179, "Kipp"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5696,10 +5839,10 @@ trainerdata 180, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5717,10 +5860,10 @@ trainerdata 181, "William"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5738,10 +5881,10 @@ trainerdata 182, "Beverly"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5759,10 +5902,10 @@ trainerdata 183, "Alice"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5806,10 +5949,10 @@ trainerdata 184, "Krise"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5834,10 +5977,10 @@ trainerdata 185, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5862,10 +6005,10 @@ trainerdata 186, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5897,10 +6040,10 @@ trainerdata 187, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 5
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5946,10 +6089,10 @@ trainerdata 188, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5974,10 +6117,10 @@ trainerdata 189, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6016,10 +6159,10 @@ trainerdata 190, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6037,10 +6180,10 @@ trainerdata 191, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6065,10 +6208,10 @@ trainerdata 192, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6100,10 +6243,10 @@ trainerdata 193, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6135,10 +6278,10 @@ trainerdata 194, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6156,10 +6299,10 @@ trainerdata 195, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6177,10 +6320,10 @@ trainerdata 196, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6205,10 +6348,10 @@ trainerdata 197, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6233,10 +6376,10 @@ trainerdata 198, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET_1
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6254,10 +6397,10 @@ trainerdata 199, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6282,10 +6425,10 @@ trainerdata 200, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET_1
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6324,10 +6467,10 @@ trainerdata 201, "Andrew"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6352,10 +6495,10 @@ trainerdata 202, "Calvin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6373,10 +6516,10 @@ trainerdata 203, "Phillip"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6401,10 +6544,10 @@ trainerdata 204, "Leonard"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6429,10 +6572,10 @@ trainerdata 205, "Nick"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6476,10 +6619,10 @@ trainerdata 206, "Gwen"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6518,10 +6661,10 @@ trainerdata 207, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6539,10 +6682,10 @@ trainerdata 208, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6560,10 +6703,10 @@ trainerdata 209, "Cassie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6588,10 +6731,10 @@ trainerdata 210, "Caroline"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6623,10 +6766,10 @@ trainerdata 211, "Huey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6651,10 +6794,10 @@ trainerdata 212, "Terrell"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6672,10 +6815,10 @@ trainerdata 213, "Kent"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAILOR
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6708,10 +6851,10 @@ trainerdata 214, "Roberto"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6743,10 +6886,10 @@ trainerdata 215, "Connie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6764,10 +6907,10 @@ trainerdata 216, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6806,10 +6949,10 @@ trainerdata 217, "Denis"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6841,10 +6984,10 @@ trainerdata 218, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6862,10 +7005,10 @@ trainerdata 219, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6897,10 +7040,10 @@ trainerdata 220, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6925,10 +7068,10 @@ trainerdata 221, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6946,10 +7089,10 @@ trainerdata 222, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6967,10 +7110,10 @@ trainerdata 223, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6995,10 +7138,10 @@ trainerdata 224, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7030,10 +7173,10 @@ trainerdata 225, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7051,10 +7194,10 @@ trainerdata 226, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7072,10 +7215,10 @@ trainerdata 227, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7100,10 +7243,10 @@ trainerdata 228, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7128,10 +7271,10 @@ trainerdata 229, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7156,10 +7299,10 @@ trainerdata 230, "Franklin"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7193,9 +7336,9 @@ trainerdata 231, "Edward"
     trainerclass CLASS_GENTLEMAN
     nummons 1
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7213,10 +7356,10 @@ trainerdata 232, "Vincent"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_GUITARIST
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7260,10 +7403,10 @@ trainerdata 233, "Eric"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7288,10 +7431,10 @@ trainerdata 234, "Eoin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7323,10 +7466,10 @@ trainerdata 235, "Noland"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7351,10 +7494,10 @@ trainerdata 236, "Shaye"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7398,10 +7541,10 @@ trainerdata 237, "Carol"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7445,10 +7588,10 @@ trainerdata 238, "Stanly"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7480,10 +7623,10 @@ trainerdata 239, "Jeff"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7508,10 +7651,10 @@ trainerdata 240, "Garrett"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7529,10 +7672,10 @@ trainerdata 241, "Kenneth"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7571,10 +7714,10 @@ trainerdata 242, "Fritz"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_JUGGLER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7618,10 +7761,10 @@ trainerdata 243, "Katie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7653,7 +7796,7 @@ trainerdata 244, "Lance"
         abilityslot 0
         level 46
         pokemon SPECIES_GYARADOS
-        item ITEM_NONE
+        item 0
         move MOVE_FLAIL
         move MOVE_DRAGON_PULSE
         move MOVE_WATERFALL
@@ -7665,7 +7808,7 @@ trainerdata 244, "Lance"
         abilityslot 0
         level 49
         pokemon SPECIES_DRAGONITE
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDER_WAVE
         move MOVE_DRAGON_RUSH
         move MOVE_THUNDER
@@ -7677,7 +7820,7 @@ trainerdata 244, "Lance"
         abilityslot 0
         level 49
         pokemon SPECIES_DRAGONITE
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDER_WAVE
         move MOVE_DRAGON_RUSH
         move MOVE_BLIZZARD
@@ -7689,7 +7832,7 @@ trainerdata 244, "Lance"
         abilityslot 0
         level 48
         pokemon SPECIES_AERODACTYL
-        item ITEM_NONE
+        item 0
         move MOVE_AERIAL_ACE
         move MOVE_CRUNCH
         move MOVE_ROCK_SLIDE
@@ -7701,7 +7844,7 @@ trainerdata 244, "Lance"
         abilityslot 0
         level 48
         pokemon SPECIES_CHARIZARD
-        item ITEM_NONE
+        item 0
         move MOVE_SHADOW_CLAW
         move MOVE_AIR_SLASH
         move MOVE_DRAGON_CLAW
@@ -7727,8 +7870,8 @@ trainerdata 245, "Will"
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7739,7 +7882,7 @@ trainerdata 245, "Will"
         abilityslot 0
         level 40
         pokemon SPECIES_XATU
-        item ITEM_NONE
+        item 0
         move MOVE_U_TURN
         move MOVE_ME_FIRST
         move MOVE_CONFUSE_RAY
@@ -7751,7 +7894,7 @@ trainerdata 245, "Will"
         abilityslot 0
         level 41
         pokemon SPECIES_JYNX
-        item ITEM_NONE
+        item 0
         move MOVE_DOUBLE_SLAP
         move MOVE_LOVELY_KISS
         move MOVE_ICE_PUNCH
@@ -7763,7 +7906,7 @@ trainerdata 245, "Will"
         abilityslot 0
         level 41
         pokemon SPECIES_EXEGGUTOR
-        item ITEM_NONE
+        item 0
         move MOVE_REFLECT
         move MOVE_HYPNOSIS
         move MOVE_EGG_BOMB
@@ -7775,7 +7918,7 @@ trainerdata 245, "Will"
         abilityslot 0
         level 41
         pokemon SPECIES_SLOWBRO
-        item ITEM_NONE
+        item 0
         move MOVE_CURSE
         move MOVE_AMNESIA
         move MOVE_WATER_PULSE
@@ -7801,8 +7944,8 @@ trainerdata 246, "Karen"
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7813,7 +7956,7 @@ trainerdata 246, "Karen"
         abilityslot 0
         level 42
         pokemon SPECIES_UMBREON
-        item ITEM_NONE
+        item 0
         move MOVE_DOUBLE_TEAM
         move MOVE_CONFUSE_RAY
         move MOVE_FEINT_ATTACK
@@ -7825,7 +7968,7 @@ trainerdata 246, "Karen"
         abilityslot 0
         level 42
         pokemon SPECIES_VILEPLUME
-        item ITEM_NONE
+        item 0
         move MOVE_STUN_SPORE
         move MOVE_ACID
         move MOVE_MOONLIGHT
@@ -7837,7 +7980,7 @@ trainerdata 246, "Karen"
         abilityslot 0
         level 45
         pokemon SPECIES_GENGAR
-        item ITEM_NONE
+        item 0
         move MOVE_LICK
         move MOVE_SPITE
         move MOVE_FOCUS_BLAST
@@ -7849,7 +7992,7 @@ trainerdata 246, "Karen"
         abilityslot 0
         level 44
         pokemon SPECIES_MURKROW
-        item ITEM_NONE
+        item 0
         move MOVE_PLUCK
         move MOVE_WHIRLWIND
         move MOVE_SUCKER_PUNCH
@@ -7875,8 +8018,8 @@ trainerdata 247, "Koga"
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7887,7 +8030,7 @@ trainerdata 247, "Koga"
         abilityslot 0
         level 40
         pokemon SPECIES_ARIADOS
-        item ITEM_NONE
+        item 0
         move MOVE_POISON_JAB
         move MOVE_SPIDER_WEB
         move MOVE_BATON_PASS
@@ -7899,7 +8042,7 @@ trainerdata 247, "Koga"
         abilityslot 0
         level 41
         pokemon SPECIES_VENOMOTH
-        item ITEM_NONE
+        item 0
         move MOVE_SUPERSONIC
         move MOVE_GUST
         move MOVE_PSYCHIC
@@ -7911,7 +8054,7 @@ trainerdata 247, "Koga"
         abilityslot 0
         level 43
         pokemon SPECIES_FORRETRESS
-        item ITEM_NONE
+        item 0
         move MOVE_PROTECT
         move MOVE_SWIFT
         move MOVE_EXPLOSION
@@ -7947,10 +8090,10 @@ trainerdata 248, "Ed"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7978,42 +8121,14 @@ trainerdata 248, "Ed"
         ballseal 0
     endparty
 
-trainerdata 249, "Don"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_BUG_CATCHER
-    nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 249
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 3
-        pokemon SPECIES_CATERPIE
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 3
-        pokemon SPECIES_CATERPIE
-        ballseal 0
-    endparty
-
 trainerdata 250, "Kenji"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8052,10 +8167,10 @@ trainerdata 251, "Nob"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BLACK_BELT
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8088,10 +8203,10 @@ trainerdata 252, "Harold"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8119,7 +8234,7 @@ trainerdata 253, "Brock"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8130,7 +8245,7 @@ trainerdata 253, "Brock"
         abilityslot 0
         level 51
         pokemon SPECIES_GRAVELER
-        item ITEM_NONE
+        item 0
         move MOVE_DEFENSE_CURL
         move MOVE_ROCK_SLIDE
         move MOVE_ROLLOUT
@@ -8142,7 +8257,7 @@ trainerdata 253, "Brock"
         abilityslot 0
         level 51
         pokemon SPECIES_RHYHORN
-        item ITEM_NONE
+        item 0
         move MOVE_SANDSTORM
         move MOVE_SCARY_FACE
         move MOVE_EARTHQUAKE
@@ -8154,7 +8269,7 @@ trainerdata 253, "Brock"
         abilityslot 0
         level 53
         pokemon SPECIES_OMASTAR
-        item ITEM_NONE
+        item 0
         move MOVE_ANCIENT_POWER
         move MOVE_BRINE
         move MOVE_PROTECT
@@ -8178,7 +8293,7 @@ trainerdata 253, "Brock"
         abilityslot 0
         level 52
         pokemon SPECIES_KABUTOPS
-        item ITEM_NONE
+        item 0
         move MOVE_ROCK_SLIDE
         move MOVE_AQUA_JET
         move MOVE_ENDURE
@@ -8193,7 +8308,7 @@ trainerdata 254, "Misty"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8204,7 +8319,7 @@ trainerdata 254, "Misty"
         abilityslot 0
         level 49
         pokemon SPECIES_GOLDUCK
-        item ITEM_NONE
+        item 0
         move MOVE_WATER_PULSE
         move MOVE_DISABLE
         move MOVE_PSYCH_UP
@@ -8216,7 +8331,7 @@ trainerdata 254, "Misty"
         abilityslot 0
         level 49
         pokemon SPECIES_QUAGSIRE
-        item ITEM_NONE
+        item 0
         move MOVE_WATER_PULSE
         move MOVE_AMNESIA
         move MOVE_EARTHQUAKE
@@ -8228,7 +8343,7 @@ trainerdata 254, "Misty"
         abilityslot 0
         level 52
         pokemon SPECIES_LAPRAS
-        item ITEM_NONE
+        item 0
         move MOVE_WATER_PULSE
         move MOVE_SING
         move MOVE_ICE_BEAM
@@ -8255,7 +8370,7 @@ trainerdata 255, "Lt. Surge"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8266,7 +8381,7 @@ trainerdata 255, "Lt. Surge"
         abilityslot 0
         level 51
         pokemon SPECIES_RAICHU
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDER_WAVE
         move MOVE_QUICK_ATTACK
         move MOVE_SHOCK_WAVE
@@ -8278,7 +8393,7 @@ trainerdata 255, "Lt. Surge"
         abilityslot 0
         level 47
         pokemon SPECIES_ELECTRODE
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDER_WAVE
         move MOVE_DOUBLE_TEAM
         move MOVE_SHOCK_WAVE
@@ -8290,7 +8405,7 @@ trainerdata 255, "Lt. Surge"
         abilityslot 0
         level 47
         pokemon SPECIES_MAGNETON
-        item ITEM_NONE
+        item 0
         move MOVE_SUPERSONIC
         move MOVE_DOUBLE_TEAM
         move MOVE_SHOCK_WAVE
@@ -8302,7 +8417,7 @@ trainerdata 255, "Lt. Surge"
         abilityslot 0
         level 47
         pokemon SPECIES_ELECTRODE
-        item ITEM_NONE
+        item 0
         move MOVE_SCREECH
         move MOVE_DOUBLE_TEAM
         move MOVE_SELF_DESTRUCT
@@ -8329,7 +8444,7 @@ trainerdata 256, "Erika"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8340,7 +8455,7 @@ trainerdata 256, "Erika"
         abilityslot 0
         level 51
         pokemon SPECIES_JUMPLUFF
-        item ITEM_NONE
+        item 0
         move MOVE_U_TURN
         move MOVE_LEECH_SEED
         move MOVE_SUNNY_DAY
@@ -8352,7 +8467,7 @@ trainerdata 256, "Erika"
         abilityslot 0
         level 52
         pokemon SPECIES_TANGELA
-        item ITEM_NONE
+        item 0
         move MOVE_ANCIENT_POWER
         move MOVE_WRING_OUT
         move MOVE_GIGA_DRAIN
@@ -8364,7 +8479,7 @@ trainerdata 256, "Erika"
         abilityslot 0
         level 56
         pokemon SPECIES_VICTREEBEL
-        item ITEM_NONE
+        item 0
         move MOVE_SUNNY_DAY
         move MOVE_SYNTHESIS
         move MOVE_GRASS_KNOT
@@ -8391,7 +8506,7 @@ trainerdata 257, "Janine"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8402,7 +8517,7 @@ trainerdata 257, "Janine"
         abilityslot 0
         level 47
         pokemon SPECIES_CROBAT
-        item ITEM_NONE
+        item 0
         move MOVE_SCREECH
         move MOVE_SUPERSONIC
         move MOVE_CONFUSE_RAY
@@ -8414,7 +8529,7 @@ trainerdata 257, "Janine"
         abilityslot 0
         level 44
         pokemon SPECIES_WEEZING
-        item ITEM_NONE
+        item 0
         move MOVE_DOUBLE_HIT
         move MOVE_SLUDGE_BOMB
         move MOVE_TOXIC
@@ -8426,7 +8541,7 @@ trainerdata 257, "Janine"
         abilityslot 0
         level 47
         pokemon SPECIES_ARIADOS
-        item ITEM_NONE
+        item 0
         move MOVE_SCARY_FACE
         move MOVE_POISON_JAB
         move MOVE_PIN_MISSILE
@@ -8438,7 +8553,7 @@ trainerdata 257, "Janine"
         abilityslot 0
         level 47
         pokemon SPECIES_ARIADOS
-        item ITEM_NONE
+        item 0
         move MOVE_PIN_MISSILE
         move MOVE_POISON_JAB
         move MOVE_SWAGGER
@@ -8465,7 +8580,7 @@ trainerdata 258, "Sabrina"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8476,7 +8591,7 @@ trainerdata 258, "Sabrina"
         abilityslot 0
         level 53
         pokemon SPECIES_ESPEON
-        item ITEM_NONE
+        item 0
         move MOVE_SHADOW_BALL
         move MOVE_SKILL_SWAP
         move MOVE_CALM_MIND
@@ -8488,7 +8603,7 @@ trainerdata 258, "Sabrina"
         abilityslot 0
         level 53
         pokemon SPECIES_MR_MIME
-        item ITEM_NONE
+        item 0
         move MOVE_MIMIC
         move MOVE_LIGHT_SCREEN
         move MOVE_SKILL_SWAP
@@ -8515,7 +8630,7 @@ trainerdata 259, "Blaine"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8588,7 +8703,7 @@ trainerdata 260, "Red"
         abilityslot 0
         level 80
         pokemon SPECIES_LAPRAS
-        item ITEM_NONE
+        item 0
         move MOVE_BLIZZARD
         move MOVE_BRINE
         move MOVE_PSYCHIC
@@ -8600,7 +8715,7 @@ trainerdata 260, "Red"
         abilityslot 0
         level 82
         pokemon SPECIES_SNORLAX
-        item ITEM_NONE
+        item 0
         move MOVE_SHADOW_BALL
         move MOVE_CRUNCH
         move MOVE_BLIZZARD
@@ -8612,7 +8727,7 @@ trainerdata 260, "Red"
         abilityslot 0
         level 84
         pokemon SPECIES_VENUSAUR
-        item ITEM_NONE
+        item 0
         move MOVE_SLUDGE_BOMB
         move MOVE_GIGA_DRAIN
         move MOVE_SLEEP_POWDER
@@ -8624,7 +8739,7 @@ trainerdata 260, "Red"
         abilityslot 0
         level 84
         pokemon SPECIES_CHARIZARD
-        item ITEM_NONE
+        item 0
         move MOVE_FLARE_BLITZ
         move MOVE_AIR_SLASH
         move MOVE_BLAST_BURN
@@ -8636,7 +8751,7 @@ trainerdata 260, "Red"
         abilityslot 0
         level 84
         pokemon SPECIES_BLASTOISE
-        item ITEM_NONE
+        item 0
         move MOVE_FOCUS_BLAST
         move MOVE_HYDRO_CANNON
         move MOVE_BLIZZARD
@@ -8662,7 +8777,7 @@ trainerdata 261, "Blue"
         abilityslot 0
         level 55
         pokemon SPECIES_EXEGGUTOR
-        item ITEM_NONE
+        item 0
         move MOVE_LEAF_STORM
         move MOVE_PSYCHIC
         move MOVE_HYPNOSIS
@@ -8674,7 +8789,7 @@ trainerdata 261, "Blue"
         abilityslot 0
         level 58
         pokemon SPECIES_ARCANINE
-        item ITEM_NONE
+        item 0
         move MOVE_ROAR
         move MOVE_DRAGON_PULSE
         move MOVE_FLARE_BLITZ
@@ -8686,7 +8801,7 @@ trainerdata 261, "Blue"
         abilityslot 0
         level 58
         pokemon SPECIES_RHYDON
-        item ITEM_NONE
+        item 0
         move MOVE_MEGAHORN
         move MOVE_STONE_EDGE
         move MOVE_THUNDER_FANG
@@ -8698,7 +8813,7 @@ trainerdata 261, "Blue"
         abilityslot 0
         level 52
         pokemon SPECIES_GYARADOS
-        item ITEM_NONE
+        item 0
         move MOVE_ICE_FANG
         move MOVE_WATERFALL
         move MOVE_DRAGON_DANCE
@@ -8710,7 +8825,7 @@ trainerdata 261, "Blue"
         abilityslot 0
         level 56
         pokemon SPECIES_MACHAMP
-        item ITEM_NONE
+        item 0
         move MOVE_DYNAMIC_PUNCH
         move MOVE_EARTHQUAKE
         move MOVE_STONE_EDGE
@@ -8734,10 +8849,10 @@ trainerdata 262, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8769,10 +8884,10 @@ trainerdata 263, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
     battletype SINGLE_BATTLE
     endentry
@@ -8827,10 +8942,10 @@ trainerdata 264, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     nummons 6
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8907,10 +9022,10 @@ trainerdata 265, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8928,10 +9043,10 @@ trainerdata 266, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
     battletype SINGLE_BATTLE
     endentry
@@ -8963,10 +9078,10 @@ trainerdata 267, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
     battletype SINGLE_BATTLE
     endentry
@@ -9021,10 +9136,10 @@ trainerdata 268, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     nummons 6
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9101,10 +9216,10 @@ trainerdata 269, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
     battletype SINGLE_BATTLE
     endentry
@@ -9136,10 +9251,10 @@ trainerdata 270, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
     battletype SINGLE_BATTLE
     endentry
@@ -9194,10 +9309,10 @@ trainerdata 271, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     nummons 5
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9263,10 +9378,10 @@ trainerdata 272, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     nummons 6
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9343,10 +9458,10 @@ trainerdata 273, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9378,10 +9493,10 @@ trainerdata 274, "Todd"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9413,10 +9528,10 @@ trainerdata 275, "Todd"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9455,10 +9570,10 @@ trainerdata 276, "Liz"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9483,10 +9598,10 @@ trainerdata 277, "Liz"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9518,10 +9633,10 @@ trainerdata 278, "Kenji"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9556,60 +9671,15 @@ trainerdata 278, "Kenji"
         ballseal 0
     endparty
 
-trainerdata 279, "Joey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_YOUNGSTER
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 279
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 34
-        pokemon SPECIES_RATICATE
-        ballseal 0
-    endparty
-
-trainerdata 280, "Joey"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_YOUNGSTER
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 280
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 40
-        pokemon SPECIES_RATICATE
-        move MOVE_SUPER_FANG
-        move MOVE_QUICK_ATTACK
-        move MOVE_HYPER_FANG
-        move MOVE_SCARY_FACE
-        ballseal 0
-    endparty
 
 trainerdata 281, "Richard"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9627,10 +9697,10 @@ trainerdata 282, "Ned"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9662,10 +9732,10 @@ trainerdata 283, "Orson"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BURGLAR
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9698,10 +9768,10 @@ trainerdata 284, "Corey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BURGLAR
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9740,10 +9810,10 @@ trainerdata 285, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     nummons 6
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9820,10 +9890,10 @@ trainerdata 286, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     nummons 6
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9900,10 +9970,10 @@ trainerdata 287, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     nummons 6
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9980,10 +10050,10 @@ trainerdata 288, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     nummons 5
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10049,10 +10119,10 @@ trainerdata 289, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
     nummons 5
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10118,10 +10188,10 @@ trainerdata 290, "Li"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ELDER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10153,10 +10223,10 @@ trainerdata 291, "Debbie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10174,10 +10244,10 @@ trainerdata 292, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10195,10 +10265,10 @@ trainerdata 293, "Nicole"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10230,10 +10300,10 @@ trainerdata 294, "Lori"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10277,10 +10347,10 @@ trainerdata 295, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10298,10 +10368,10 @@ trainerdata 296, "Nikki"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10326,10 +10396,10 @@ trainerdata 297, "Diana"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10351,10 +10421,10 @@ trainerdata 298, "Briana"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10387,10 +10457,10 @@ trainerdata 299, "Hank"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10415,10 +10485,10 @@ trainerdata 300, "Roy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10443,10 +10513,10 @@ trainerdata 301, "Boris"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10478,10 +10548,10 @@ trainerdata 302, "Bob"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10499,10 +10569,10 @@ trainerdata 303, "Jose"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10520,10 +10590,10 @@ trainerdata 304, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10562,10 +10632,10 @@ trainerdata 305, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10604,10 +10674,10 @@ trainerdata 306, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10646,10 +10716,10 @@ trainerdata 307, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10688,10 +10758,10 @@ trainerdata 308, "Jerry"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CAMPER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10713,10 +10783,10 @@ trainerdata 309, "Dwayne"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10755,10 +10825,10 @@ trainerdata 310, "Harris"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10776,10 +10846,10 @@ trainerdata 311, "Zeke"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10804,10 +10874,10 @@ trainerdata 312, "Charles"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10839,10 +10909,10 @@ trainerdata 313, "Reese"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10860,10 +10930,10 @@ trainerdata 314, "Joel"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10888,10 +10958,10 @@ trainerdata 315, "Glenn"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10923,10 +10993,10 @@ trainerdata 316, "Herman"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10970,10 +11040,10 @@ trainerdata 317, "Fidel"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10995,10 +11065,10 @@ trainerdata 318, "Burt"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FIREBREATHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11031,10 +11101,10 @@ trainerdata 319, "Bill"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11059,10 +11129,10 @@ trainerdata 320, "Martin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11087,10 +11157,10 @@ trainerdata 321, "Stephen"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11122,10 +11192,10 @@ trainerdata 322, "Barney"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11157,10 +11227,10 @@ trainerdata 323, "Tully"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11178,10 +11248,10 @@ trainerdata 324, "Tully"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11213,10 +11283,10 @@ trainerdata 325, "Wilton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11248,10 +11318,10 @@ trainerdata 326, "Jo & Zoe"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -11284,10 +11354,10 @@ trainerdata 327, "Danny"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11319,10 +11389,10 @@ trainerdata 328, "Tommy"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11355,10 +11425,10 @@ trainerdata 329, "Dudley"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_SCHOOL_KID_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11377,10 +11447,10 @@ trainerdata 330, "Joe"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_SCHOOL_KID_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11399,7 +11469,7 @@ trainerdata 330, "Joe"
         abilityslot 0
         level 42
         pokemon SPECIES_VAPOREON
-        item ITEM_NONE
+        item 0
         ballseal 0
     endparty
 
@@ -11407,10 +11477,10 @@ trainerdata 331, "Billy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11442,10 +11512,10 @@ trainerdata 332, "Heidi"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11470,10 +11540,10 @@ trainerdata 333, "Edna"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11498,10 +11568,10 @@ trainerdata 334, "Gina"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11533,10 +11603,10 @@ trainerdata 335, "Erin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11561,10 +11631,10 @@ trainerdata 336, "Tanya"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11587,9 +11657,9 @@ trainerdata 337, "Gregory"
     trainerclass CLASS_GENTLEMAN
     nummons 3
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11634,9 +11704,9 @@ trainerdata 338, "Mickey"
     trainerclass CLASS_GENTLEMAN
     nummons 1
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11654,10 +11724,10 @@ trainerdata 339, "Wai"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11689,10 +11759,10 @@ trainerdata 340, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11710,10 +11780,10 @@ trainerdata 341, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11731,10 +11801,10 @@ trainerdata 342, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11752,10 +11822,10 @@ trainerdata 343, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11773,10 +11843,10 @@ trainerdata 344, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11794,10 +11864,10 @@ trainerdata 345, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11815,10 +11885,10 @@ trainerdata 346, "Julia"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BEAUTY
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11862,10 +11932,10 @@ trainerdata 347, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11883,10 +11953,10 @@ trainerdata 348, "Robert"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11904,10 +11974,10 @@ trainerdata 349, "Joshua"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     nummons 6
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11960,10 +12030,10 @@ trainerdata 350, "Carter"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11995,10 +12065,10 @@ trainerdata 351, "Trevor"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12016,10 +12086,10 @@ trainerdata 352, "Georgia"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
     nummons 5
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12065,10 +12135,10 @@ trainerdata 353, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12086,10 +12156,10 @@ trainerdata 354, "Laura"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_LASS
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12108,7 +12178,7 @@ trainerdata 354, "Laura"
         abilityslot 0
         level 41
         pokemon SPECIES_PIDGEOTTO
-        item ITEM_NONE
+        item 0
         ballseal 0
 
         // mon 2
@@ -12116,7 +12186,7 @@ trainerdata 354, "Laura"
         abilityslot 0
         level 41
         pokemon SPECIES_BELLOSSOM
-        item ITEM_NONE
+        item 0
         ballseal 0
     endparty
 
@@ -12124,10 +12194,10 @@ trainerdata 355, "Shannon"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12159,10 +12229,10 @@ trainerdata 356, "Michelle"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12206,10 +12276,10 @@ trainerdata 357, "Clarke"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12234,10 +12304,10 @@ trainerdata 358, "Kenny"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12269,10 +12339,10 @@ trainerdata 359, "Jim"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12290,10 +12360,10 @@ trainerdata 360, "Arnie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12311,10 +12381,10 @@ trainerdata 361, "Kevin"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12358,10 +12428,10 @@ trainerdata 362, "Quinn"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12394,10 +12464,10 @@ trainerdata 363, "Emma"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12415,10 +12485,10 @@ trainerdata 364, "Sam"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_SUPER_NERD
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12429,7 +12499,7 @@ trainerdata 364, "Sam"
         abilityslot 0
         level 44
         pokemon SPECIES_GRIMER
-        item ITEM_NONE
+        item 0
         ballseal 0
 
         // mon 1
@@ -12445,10 +12515,10 @@ trainerdata 365, "Tyrone"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12480,10 +12550,10 @@ trainerdata 366, "Pat"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_SUPER_NERD
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12494,7 +12564,7 @@ trainerdata 366, "Pat"
         abilityslot 0
         level 47
         pokemon SPECIES_PORYGON
-        item ITEM_NONE
+        item 0
         move MOVE_CHARGE_BEAM
         move MOVE_SIGNAL_BEAM
         move MOVE_ICE_BEAM
@@ -12506,10 +12576,10 @@ trainerdata 367, "Shawn"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_SUPER_NERD
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12520,7 +12590,7 @@ trainerdata 367, "Shawn"
         abilityslot 0
         level 39
         pokemon SPECIES_MAGNEMITE
-        item ITEM_NONE
+        item 0
         ballseal 0
 
         // mon 1
@@ -12536,7 +12606,7 @@ trainerdata 367, "Shawn"
         abilityslot 0
         level 39
         pokemon SPECIES_MAGNEMITE
-        item ITEM_NONE
+        item 0
         ballseal 0
     endparty
 
@@ -12544,10 +12614,10 @@ trainerdata 368, "Rebecca"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_MEDIUM
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12580,10 +12650,10 @@ trainerdata 369, "Darcy"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_MEDIUM
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12616,10 +12686,10 @@ trainerdata 370, "Jerome"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12658,10 +12728,10 @@ trainerdata 371, "Tucker"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12686,10 +12756,10 @@ trainerdata 372, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12721,10 +12791,10 @@ trainerdata 373, "Frankie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12742,10 +12812,10 @@ trainerdata 374, "Tyson"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12778,10 +12848,10 @@ trainerdata 375, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12813,10 +12883,10 @@ trainerdata 376, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12848,10 +12918,10 @@ trainerdata 377, "Parker"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12884,10 +12954,10 @@ trainerdata 378, "Warren"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12912,10 +12982,10 @@ trainerdata 379, "Jimmy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12947,10 +13017,10 @@ trainerdata 380, "Owen"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12968,10 +13038,10 @@ trainerdata 381, "Jason"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12996,10 +13066,10 @@ trainerdata 382, "Hillary"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13024,10 +13094,10 @@ trainerdata 383, "Peter"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13059,10 +13129,10 @@ trainerdata 384, "Daniel"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13080,10 +13150,10 @@ trainerdata 385, "Dara & Dia"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -13108,10 +13178,10 @@ trainerdata 386, "Greg"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13133,10 +13203,10 @@ trainerdata 387, "Amy & Mimi"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -13161,10 +13231,10 @@ trainerdata 388, "Walt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13189,10 +13259,10 @@ trainerdata 389, "Nelson"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13225,10 +13295,10 @@ trainerdata 390, "Ray"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13246,10 +13316,10 @@ trainerdata 391, "Issac"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_POKE_MANIAC
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13271,10 +13341,10 @@ trainerdata 392, "Donald"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13299,10 +13369,10 @@ trainerdata 393, "Teru"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13341,10 +13411,10 @@ trainerdata 394, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13376,10 +13446,10 @@ trainerdata 395, "Mark"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13423,10 +13493,10 @@ trainerdata 396, "Horton"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_JUGGLER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13470,10 +13540,10 @@ trainerdata 397, "Chad"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13491,10 +13561,10 @@ trainerdata 398, "Valerie"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BEAUTY
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13527,10 +13597,10 @@ trainerdata 399, "Lyle"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13563,9 +13633,9 @@ trainerdata 400, "Dana"
     trainerclass CLASS_LASS
     nummons 2
     item ITEM_MOOMOO_MILK
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13599,9 +13669,9 @@ trainerdata 401, "Alfred"
     trainerclass CLASS_GENTLEMAN
     nummons 1
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13619,10 +13689,10 @@ trainerdata 402, "Tiffany"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13644,10 +13714,10 @@ trainerdata 403, "Spencer"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13679,10 +13749,10 @@ trainerdata 404, "Grunt"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TEAM_ROCKET_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13715,10 +13785,10 @@ trainerdata 405, "Phil"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13751,10 +13821,10 @@ trainerdata 406, "Zach"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13772,10 +13842,10 @@ trainerdata 407, "Allen"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13808,10 +13878,10 @@ trainerdata 408, "Cybil"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13844,10 +13914,10 @@ trainerdata 409, "Brandon"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13872,10 +13942,10 @@ trainerdata 410, "Harry"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAILOR
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13897,10 +13967,10 @@ trainerdata 411, "Vernon"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PSYCHIC_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13918,10 +13988,10 @@ trainerdata 412, "Eli"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PSYCHIC_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13953,10 +14023,10 @@ trainerdata 413, "Scott"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FISHERMAN
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14000,10 +14070,10 @@ trainerdata 414, "Jose"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14021,10 +14091,10 @@ trainerdata 415, "Jared"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14068,10 +14138,10 @@ trainerdata 416, "Jo & Zoe"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -14104,10 +14174,10 @@ trainerdata 417, "Jenn"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14134,8 +14204,8 @@ trainerdata 418, "Bruno"
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14146,7 +14216,7 @@ trainerdata 418, "Bruno"
         abilityslot 0
         level 42
         pokemon SPECIES_HITMONTOP
-        item ITEM_NONE
+        item 0
         move MOVE_COUNTER
         move MOVE_QUICK_ATTACK
         move MOVE_DIG
@@ -14158,7 +14228,7 @@ trainerdata 418, "Bruno"
         abilityslot 0
         level 42
         pokemon SPECIES_HITMONLEE
-        item ITEM_NONE
+        item 0
         move MOVE_SWAGGER
         move MOVE_FOCUS_ENERGY
         move MOVE_HIGH_JUMP_KICK
@@ -14170,7 +14240,7 @@ trainerdata 418, "Bruno"
         abilityslot 0
         level 42
         pokemon SPECIES_HITMONCHAN
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDER_PUNCH
         move MOVE_ICE_PUNCH
         move MOVE_FIRE_PUNCH
@@ -14182,7 +14252,7 @@ trainerdata 418, "Bruno"
         abilityslot 0
         level 43
         pokemon SPECIES_ONIX
-        item ITEM_NONE
+        item 0
         move MOVE_DRAGON_BREATH
         move MOVE_EARTHQUAKE
         move MOVE_SANDSTORM
@@ -14206,10 +14276,10 @@ trainerdata 419, "Ellen"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14234,10 +14304,10 @@ trainerdata 420, "Perry"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14255,10 +14325,10 @@ trainerdata 421, "Bret"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14283,10 +14353,10 @@ trainerdata 422, "Rodney"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PSYCHIC_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14311,10 +14381,10 @@ trainerdata 423, "Jeremy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14346,10 +14416,10 @@ trainerdata 424, "Colin"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_POKEFAN_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14371,10 +14441,10 @@ trainerdata 425, "Meg & Peg"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -14399,10 +14469,10 @@ trainerdata 426, "Meg & Peg"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -14427,10 +14497,10 @@ trainerdata 427, "Shirley"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14455,10 +14525,10 @@ trainerdata 428, "Nate"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14483,10 +14553,10 @@ trainerdata 429, "Ricky"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_SCHOOL_KID_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14505,7 +14575,7 @@ trainerdata 429, "Ricky"
         abilityslot 0
         level 40
         pokemon SPECIES_DITTO
-        item ITEM_NONE
+        item 0
         ballseal 0
     endparty
 
@@ -14513,10 +14583,10 @@ trainerdata 430, "Jack"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14541,10 +14611,10 @@ trainerdata 431, "Jack"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14569,10 +14639,10 @@ trainerdata 432, "Alan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14597,10 +14667,10 @@ trainerdata 433, "Alan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14639,10 +14709,10 @@ trainerdata 434, "Chad"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14667,10 +14737,10 @@ trainerdata 435, "Chad"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14695,10 +14765,10 @@ trainerdata 436, "Beverly"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14716,10 +14786,10 @@ trainerdata 437, "Beverly"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14737,10 +14807,10 @@ trainerdata 438, "Derek"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14765,10 +14835,10 @@ trainerdata 439, "Derek"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14807,10 +14877,10 @@ trainerdata 440, "Huey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14835,10 +14905,10 @@ trainerdata 441, "Huey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14863,10 +14933,10 @@ trainerdata 442, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14884,10 +14954,10 @@ trainerdata 443, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14905,10 +14975,10 @@ trainerdata 444, "Reena"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14940,10 +15010,10 @@ trainerdata 445, "Reena"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ACE_TRAINER_F
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14975,10 +15045,10 @@ trainerdata 446, "Jose"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15003,10 +15073,10 @@ trainerdata 447, "Vance"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15031,10 +15101,10 @@ trainerdata 448, "Vance"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15066,10 +15136,10 @@ trainerdata 449, "Arnie"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15091,10 +15161,10 @@ trainerdata 450, "Wilton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15126,10 +15196,10 @@ trainerdata 451, "Parry"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15154,10 +15224,10 @@ trainerdata 452, "Parry"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15182,10 +15252,10 @@ trainerdata 453, "Erin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15217,10 +15287,10 @@ trainerdata 454, "Irwin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_JUGGLER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15259,10 +15329,10 @@ trainerdata 455, "Irwin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_JUGGLER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15301,10 +15371,10 @@ trainerdata 456, "Gaven"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15348,10 +15418,10 @@ trainerdata 457, "Gaven"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15395,10 +15465,10 @@ trainerdata 458, "Jamie"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15431,10 +15501,10 @@ trainerdata 459, "Jamie"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15467,10 +15537,10 @@ trainerdata 460, "Wade"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15525,10 +15595,10 @@ trainerdata 461, "Wade"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15583,10 +15653,10 @@ trainerdata 462, "Ralph"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15604,10 +15674,10 @@ trainerdata 463, "Ralph"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15633,9 +15703,9 @@ trainerdata 464, "Dana"
     trainerclass CLASS_LASS
     nummons 2
     item ITEM_MOOMOO_MILK
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15669,9 +15739,9 @@ trainerdata 465, "Dana"
     trainerclass CLASS_LASS
     nummons 2
     item ITEM_MOOMOO_MILK
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15704,10 +15774,10 @@ trainerdata 466, "Tiffany"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15729,10 +15799,10 @@ trainerdata 467, "Tiffany"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15754,10 +15824,10 @@ trainerdata 468, "Ross"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCIENTIST_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15782,10 +15852,10 @@ trainerdata 469, "Mitch"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCIENTIST_1
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15803,10 +15873,10 @@ trainerdata 470, "Gregg"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCIENTIST_1
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15838,10 +15908,10 @@ trainerdata 471, "Garett"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCIENTIST_1
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15873,10 +15943,10 @@ trainerdata 472, "Trenton"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCIENTIST_1
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15898,10 +15968,10 @@ trainerdata 473, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15926,10 +15996,10 @@ trainerdata 474, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15947,10 +16017,10 @@ trainerdata 475, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15982,10 +16052,10 @@ trainerdata 476, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16017,10 +16087,10 @@ trainerdata 477, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16042,10 +16112,10 @@ trainerdata 478, "Ariana"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_EXECUTIVE
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16089,10 +16159,10 @@ trainerdata 479, "Ariana"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_EXECUTIVE
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16136,10 +16206,10 @@ trainerdata 480, "Diana"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SKIER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16157,10 +16227,10 @@ trainerdata 481, "Jill"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SKIER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16178,10 +16248,10 @@ trainerdata 482, "Deandre"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BOARDER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16213,10 +16283,10 @@ trainerdata 483, "Patton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BOARDER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16241,10 +16311,10 @@ trainerdata 484, "Gerardo"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BOARDER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16288,10 +16358,10 @@ trainerdata 485, "Archer"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_EXECUTIVE_0
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16335,10 +16405,10 @@ trainerdata 486, "Proton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_EXECUTIVE_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16363,10 +16433,10 @@ trainerdata 487, "Petrel"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_EXECUTIVE_2
     nummons 6
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16443,10 +16513,10 @@ trainerdata 488, "Petrel"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_EXECUTIVE_2
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16480,8 +16550,8 @@ trainerdata 489, "Silver"
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16560,8 +16630,8 @@ trainerdata 490, "Silver"
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16640,8 +16710,8 @@ trainerdata 491, "Silver"
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16652,7 +16722,7 @@ trainerdata 491, "Silver"
         abilityslot 0
         level 55
         pokemon SPECIES_SNEASEL
-        item ITEM_NONE
+        item 0
         move MOVE_ICY_WIND
         move MOVE_SHADOW_CLAW
         move MOVE_FEINT_ATTACK
@@ -16664,7 +16734,7 @@ trainerdata 491, "Silver"
         abilityslot 0
         level 58
         pokemon SPECIES_CROBAT
-        item ITEM_NONE
+        item 0
         move MOVE_TOXIC
         move MOVE_BITE
         move MOVE_CONFUSE_RAY
@@ -16676,7 +16746,7 @@ trainerdata 491, "Silver"
         abilityslot 0
         level 55
         pokemon SPECIES_MAGNETON
-        item ITEM_NONE
+        item 0
         move MOVE_DISCHARGE
         move MOVE_MIRROR_SHOT
         move MOVE_THUNDER_WAVE
@@ -16688,7 +16758,7 @@ trainerdata 491, "Silver"
         abilityslot 0
         level 56
         pokemon SPECIES_GENGAR
-        item ITEM_NONE
+        item 0
         move MOVE_DARK_PULSE
         move MOVE_SLUDGE_BOMB
         move MOVE_SHADOW_BALL
@@ -16700,7 +16770,7 @@ trainerdata 491, "Silver"
         abilityslot 0
         level 56
         pokemon SPECIES_ALAKAZAM
-        item ITEM_NONE
+        item 0
         move MOVE_RECOVER
         move MOVE_FOCUS_BLAST
         move MOVE_PSYCHIC
@@ -16712,7 +16782,7 @@ trainerdata 491, "Silver"
         abilityslot 0
         level 60
         pokemon SPECIES_FERALIGATR
-        item ITEM_NONE
+        item 0
         move MOVE_CRUNCH
         move MOVE_AQUA_TAIL
         move MOVE_SLASH
@@ -16724,10 +16794,10 @@ trainerdata 492, "Alex"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16759,10 +16829,10 @@ trainerdata 493, "Edith"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16780,10 +16850,10 @@ trainerdata 494, "Georgina"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
     nummons 5
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16829,10 +16899,10 @@ trainerdata 498, "Eusine"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_MYSTERY_MAN
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16876,10 +16946,10 @@ trainerdata 499, "Grunt"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TEAM_ROCKET
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16912,10 +16982,10 @@ trainerdata 500, "Kobe"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16937,10 +17007,10 @@ trainerdata 501, "Piper"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16984,10 +17054,10 @@ trainerdata 502, "Clea & Gil"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -17021,9 +17091,9 @@ trainerdata 503, "Jack"
     trainerclass CLASS_SCHOOL_KID_M
     nummons 3
     item ITEM_HYPER_POTION
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17067,10 +17137,10 @@ trainerdata 504, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17114,10 +17184,10 @@ trainerdata 505, "Alan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17156,10 +17226,10 @@ trainerdata 506, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17214,10 +17284,10 @@ trainerdata 507, "Chad"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17250,10 +17320,10 @@ trainerdata 508, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17286,10 +17356,10 @@ trainerdata 509, "Huey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAILOR
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17318,39 +17388,14 @@ trainerdata 509, "Huey"
         ballseal 0
     endparty
 
-trainerdata 510, "Joey"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_YOUNGSTER
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 510
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 54
-        pokemon SPECIES_RATICATE
-        move MOVE_HYPER_FANG
-        move MOVE_QUICK_ATTACK
-        move MOVE_SUBSTITUTE
-        move MOVE_ENDEAVOR
-        ballseal 0
-    endparty
-
 trainerdata 511, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNGSTER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17372,10 +17417,10 @@ trainerdata 512, "Wade"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17430,10 +17475,10 @@ trainerdata 513, "Arnie"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17466,10 +17511,10 @@ trainerdata 514, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17491,10 +17536,10 @@ trainerdata 515, "Ralph"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17519,10 +17564,10 @@ trainerdata 516, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FISHERMAN
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17555,10 +17600,10 @@ trainerdata 517, "Tully"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FISHERMAN
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17602,10 +17647,10 @@ trainerdata 518, "Liz"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17637,10 +17682,10 @@ trainerdata 519, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17684,10 +17729,10 @@ trainerdata 520, "Gina"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17719,10 +17764,10 @@ trainerdata 521, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17766,10 +17811,10 @@ trainerdata 522, "Tiffany"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17791,10 +17836,10 @@ trainerdata 523, "Anthony"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17826,10 +17871,10 @@ trainerdata 524, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_HIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17873,10 +17918,10 @@ trainerdata 525, "Todd"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17915,10 +17960,10 @@ trainerdata 526, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CAMPER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17973,10 +18018,10 @@ trainerdata 527, "Irwin"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_JUGGLER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18032,9 +18077,9 @@ trainerdata 528, "Dana"
     trainerclass CLASS_LASS
     nummons 2
     item ITEM_MOOMOO_MILK
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18067,10 +18112,10 @@ trainerdata 529, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18103,10 +18148,10 @@ trainerdata 530, "Brent"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18145,10 +18190,10 @@ trainerdata 531, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -18181,10 +18226,10 @@ trainerdata 532, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18239,10 +18284,10 @@ trainerdata 533, "Wayne"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18267,10 +18312,10 @@ trainerdata 534, "Kimberly"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18288,10 +18333,10 @@ trainerdata 535, "Marigold"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18309,10 +18354,10 @@ trainerdata 536, "Bertrand"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18344,10 +18389,10 @@ trainerdata 537, "Harrison"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18372,10 +18417,10 @@ trainerdata 538, "Hugh"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18397,10 +18442,10 @@ trainerdata 539, "Markus"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18422,10 +18467,10 @@ trainerdata 540, "Rex"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18443,10 +18488,10 @@ trainerdata 541, "Andy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18464,10 +18509,10 @@ trainerdata 542, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAGE
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18500,10 +18545,10 @@ trainerdata 543, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAGE
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18536,10 +18581,10 @@ trainerdata 544, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAGE
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18573,9 +18618,9 @@ trainerdata 545, "French"
     trainerclass CLASS_ACE_TRAINER_M
     nummons 2
     item ITEM_DIRE_HIT
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18586,7 +18631,7 @@ trainerdata 545, "French"
         abilityslot 0
         level 47
         pokemon SPECIES_ABSOL
-        item ITEM_NONE
+        item 0
         move MOVE_PSYCHO_CUT
         move MOVE_NIGHT_SLASH
         move MOVE_SLASH
@@ -18598,7 +18643,7 @@ trainerdata 545, "French"
         abilityslot 0
         level 47
         pokemon SPECIES_ALAKAZAM
-        item ITEM_NONE
+        item 0
         move MOVE_PSYCHIC
         move MOVE_FOCUS_BLAST
         move MOVE_ENERGY_BALL
@@ -18610,10 +18655,10 @@ trainerdata 546, "Sherman"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18646,10 +18691,10 @@ trainerdata 547, "Bruce"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18681,10 +18726,10 @@ trainerdata 548, "Manford"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BLACK_BELT
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18706,10 +18751,10 @@ trainerdata 549, "Zac & Jen"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_DOUBLE_TEAM
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -18742,10 +18787,10 @@ trainerdata 550, "Ander"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18777,10 +18822,10 @@ trainerdata 551, "Dwight"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18805,10 +18850,10 @@ trainerdata 552, "Regis"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18833,10 +18878,10 @@ trainerdata 553, "Moe & Lulu"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNG_COUPLE
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -18862,9 +18907,9 @@ trainerdata 554, "Milton"
     trainerclass CLASS_GENTLEMAN
     nummons 1
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18882,10 +18927,10 @@ trainerdata 555, "Justin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18910,10 +18955,10 @@ trainerdata 556, "Gail"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18938,10 +18983,10 @@ trainerdata 557, "Vic & Tara"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNG_COUPLE
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -18974,10 +19019,10 @@ trainerdata 558, "Kyler"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19009,10 +19054,10 @@ trainerdata 559, "Tim & Sue"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNG_COUPLE
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -19037,10 +19082,10 @@ trainerdata 560, "Clark"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19058,10 +19103,10 @@ trainerdata 561, "Tanner"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19079,10 +19124,10 @@ trainerdata 562, "Piper"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19100,10 +19145,10 @@ trainerdata 563, "Ginger"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19121,10 +19166,10 @@ trainerdata 564, "Clarice"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_TEACHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19147,7 +19192,7 @@ trainerdata 564, "Clarice"
         abilityslot 0
         level 43
         pokemon SPECIES_ROSELIA
-        item ITEM_NONE
+        item 0
         move MOVE_INGRAIN
         move MOVE_SYNTHESIS
         move MOVE_TOXIC
@@ -19159,10 +19204,10 @@ trainerdata 565, "Josh"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19180,10 +19225,10 @@ trainerdata 566, "Connor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_SCHOOL_KID_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19206,10 +19251,10 @@ trainerdata 567, "Torin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19234,10 +19279,10 @@ trainerdata 568, "Travis"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19259,10 +19304,10 @@ trainerdata 569, "Kay & Tia"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -19295,10 +19340,10 @@ trainerdata 570, "Boone"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19323,10 +19368,10 @@ trainerdata 571, "Eleanor"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19351,10 +19396,10 @@ trainerdata 572, "Dale"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_BIKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19373,10 +19418,10 @@ trainerdata 573, "Jacob"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19401,10 +19446,10 @@ trainerdata 574, "Aiden"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19422,10 +19467,10 @@ trainerdata 575, "Dan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19457,10 +19502,10 @@ trainerdata 576, "Theron"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19478,10 +19523,10 @@ trainerdata 577, "Markey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19499,10 +19544,10 @@ trainerdata 578, "Teddy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19520,10 +19565,10 @@ trainerdata 579, "Ernest"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19548,10 +19593,10 @@ trainerdata 580, "Pedro"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_CAMPER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19574,10 +19619,10 @@ trainerdata 581, "Adrian"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19595,10 +19640,10 @@ trainerdata 582, "Cheyenne"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19616,10 +19661,10 @@ trainerdata 583, "Bert"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19644,10 +19689,10 @@ trainerdata 584, "Ernie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19665,10 +19710,10 @@ trainerdata 585, "Elmo"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19693,10 +19738,10 @@ trainerdata 586, "Luis"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19721,10 +19766,10 @@ trainerdata 587, "Leona"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19742,10 +19787,10 @@ trainerdata 588, "Mina"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19777,10 +19822,10 @@ trainerdata 589, "Murphy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19819,10 +19864,10 @@ trainerdata 590, "Liam"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19840,10 +19885,10 @@ trainerdata 591, "Gideon"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FISHERMAN
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19876,10 +19921,10 @@ trainerdata 592, "Chelan"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19901,10 +19946,10 @@ trainerdata 593, "Kendra"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19922,10 +19967,10 @@ trainerdata 594, "Esteban"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19950,10 +19995,10 @@ trainerdata 595, "Duane"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19978,10 +20023,10 @@ trainerdata 596, "Kinsley"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20013,10 +20058,10 @@ trainerdata 597, "Easton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20055,10 +20100,10 @@ trainerdata 598, "Day & Dani"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -20083,10 +20128,10 @@ trainerdata 599, "Virgil"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20104,10 +20149,10 @@ trainerdata 600, "Selina"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20125,10 +20170,10 @@ trainerdata 601, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20147,9 +20192,9 @@ trainerdata 602, "Jose"
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 3
     item ITEM_X_ATTACK
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20181,10 +20226,10 @@ trainerdata 603, "Erin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20223,10 +20268,10 @@ trainerdata 604, "Gaven"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20270,10 +20315,10 @@ trainerdata 605, "Kenji"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20312,10 +20357,10 @@ trainerdata 606, "Parry"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20340,10 +20385,10 @@ trainerdata 607, "Reena"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20387,10 +20432,10 @@ trainerdata 608, "Wilton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20422,10 +20467,10 @@ trainerdata 609, "Jamie"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20458,10 +20503,10 @@ trainerdata 610, "Derek"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20500,10 +20545,10 @@ trainerdata 611, "Beverly"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20521,10 +20566,10 @@ trainerdata 612, "Vance"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20556,10 +20601,10 @@ trainerdata 613, "Krise"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20584,10 +20629,10 @@ trainerdata 614, "Krise"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20612,10 +20657,10 @@ trainerdata 615, "Krise"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20640,10 +20685,10 @@ trainerdata 616, "Ian"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20668,10 +20713,10 @@ trainerdata 617, "Ian"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20696,10 +20741,10 @@ trainerdata 618, "Ian"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20724,10 +20769,10 @@ trainerdata 619, "Walt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20752,10 +20797,10 @@ trainerdata 620, "Walt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20780,10 +20825,10 @@ trainerdata 621, "Walt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20815,10 +20860,10 @@ trainerdata 622, "Doug"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20843,10 +20888,10 @@ trainerdata 623, "Doug"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20871,10 +20916,10 @@ trainerdata 624, "Doug"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20899,10 +20944,10 @@ trainerdata 625, "Rob"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20927,10 +20972,10 @@ trainerdata 626, "Rob"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20955,10 +21000,10 @@ trainerdata 627, "Rob"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20983,10 +21028,10 @@ trainerdata 628, "Reese"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21019,10 +21064,10 @@ trainerdata 629, "Reese"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21055,10 +21100,10 @@ trainerdata 630, "Reese"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21091,10 +21136,10 @@ trainerdata 631, "Aiden"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21119,10 +21164,10 @@ trainerdata 632, "Aiden"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21147,10 +21192,10 @@ trainerdata 633, "Aiden"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21182,10 +21227,10 @@ trainerdata 634, "Ernest"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21210,10 +21255,10 @@ trainerdata 635, "Ernest"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21238,10 +21283,10 @@ trainerdata 636, "Ernest"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21266,10 +21311,10 @@ trainerdata 637, "Hillary"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21294,10 +21339,10 @@ trainerdata 638, "Hillary"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21322,10 +21367,10 @@ trainerdata 639, "Hillary"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21350,10 +21395,10 @@ trainerdata 640, "Billy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21385,10 +21430,10 @@ trainerdata 641, "Billy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21420,10 +21465,10 @@ trainerdata 642, "Billy"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21478,10 +21523,10 @@ trainerdata 643, "Kay & Tia"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -21514,10 +21559,10 @@ trainerdata 644, "Kay & Tia"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -21550,10 +21595,10 @@ trainerdata 645, "Kay & Tia"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -21586,10 +21631,10 @@ trainerdata 646, "Josh"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21614,10 +21659,10 @@ trainerdata 647, "Josh"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21642,10 +21687,10 @@ trainerdata 648, "Josh"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21670,10 +21715,10 @@ trainerdata 649, "Torin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21705,10 +21750,10 @@ trainerdata 650, "Torin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21740,10 +21785,10 @@ trainerdata 651, "Torin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21775,10 +21820,10 @@ trainerdata 652, "Tim & Sue"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNG_COUPLE
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -21803,10 +21848,10 @@ trainerdata 653, "Tim & Sue"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNG_COUPLE
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -21839,10 +21884,10 @@ trainerdata 654, "Tim & Sue"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNG_COUPLE
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -21875,10 +21920,10 @@ trainerdata 655, "Kenny"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21917,10 +21962,10 @@ trainerdata 656, "Kenny"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21959,10 +22004,10 @@ trainerdata 657, "Kenny"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22001,10 +22046,10 @@ trainerdata 658, "Tanner"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22029,10 +22074,10 @@ trainerdata 659, "Tanner"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22064,10 +22109,10 @@ trainerdata 660, "Tanner"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22099,10 +22144,10 @@ trainerdata 661, "Kyle"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22134,10 +22179,10 @@ trainerdata 662, "Kyle"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22176,10 +22221,10 @@ trainerdata 663, "Kyle"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22218,10 +22263,10 @@ trainerdata 664, "Kyler"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22260,10 +22305,10 @@ trainerdata 665, "Kyler"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 5
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22309,10 +22354,10 @@ trainerdata 666, "Kyler"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
     nummons 6
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22367,8 +22412,8 @@ trainerdata 667, "Cheryl"
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22379,7 +22424,7 @@ trainerdata 667, "Cheryl"
         abilityslot 0
         level 61
         pokemon SPECIES_WOBBUFFET
-        item ITEM_NONE
+        item 0
         move MOVE_COUNTER
         move MOVE_MIRROR_COAT
         move MOVE_SAFEGUARD
@@ -22391,7 +22436,7 @@ trainerdata 667, "Cheryl"
         abilityslot 0
         level 61
         pokemon SPECIES_DRIFBLIM
-        item ITEM_NONE
+        item 0
         move MOVE_TOXIC
         move MOVE_OMINOUS_WIND
         move MOVE_FLY
@@ -22403,7 +22448,7 @@ trainerdata 667, "Cheryl"
         abilityslot 0
         level 62
         pokemon SPECIES_HARIYAMA
-        item ITEM_NONE
+        item 0
         move MOVE_CLOSE_COMBAT
         move MOVE_EARTHQUAKE
         move MOVE_BULLET_PUNCH
@@ -22415,7 +22460,7 @@ trainerdata 667, "Cheryl"
         abilityslot 0
         level 63
         pokemon SPECIES_WAILORD
-        item ITEM_NONE
+        item 0
         move MOVE_WATER_SPOUT
         move MOVE_BRINE
         move MOVE_EARTHQUAKE
@@ -22441,8 +22486,8 @@ trainerdata 668, "Marley"
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22453,7 +22498,7 @@ trainerdata 668, "Marley"
         abilityslot 0
         level 61
         pokemon SPECIES_NINJASK
-        item ITEM_NONE
+        item 0
         move MOVE_X_SCISSOR
         move MOVE_AERIAL_ACE
         move MOVE_SWORDS_DANCE
@@ -22465,7 +22510,7 @@ trainerdata 668, "Marley"
         abilityslot 0
         level 61
         pokemon SPECIES_ELECTRODE
-        item ITEM_NONE
+        item 0
         move MOVE_HYPER_BEAM
         move MOVE_THUNDER
         move MOVE_THUNDER_WAVE
@@ -22477,7 +22522,7 @@ trainerdata 668, "Marley"
         abilityslot 0
         level 62
         pokemon SPECIES_CROBAT
-        item ITEM_NONE
+        item 0
         move MOVE_AIR_SLASH
         move MOVE_POISON_FANG
         move MOVE_CONFUSE_RAY
@@ -22489,7 +22534,7 @@ trainerdata 668, "Marley"
         abilityslot 0
         level 63
         pokemon SPECIES_WEAVILE
-        item ITEM_NONE
+        item 0
         move MOVE_ICE_SHARD
         move MOVE_NIGHT_SLASH
         move MOVE_ICE_PUNCH
@@ -22515,8 +22560,8 @@ trainerdata 669, "Mira"
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22527,7 +22572,7 @@ trainerdata 669, "Mira"
         abilityslot 0
         level 61
         pokemon SPECIES_PORYGON_Z
-        item ITEM_NONE
+        item 0
         move MOVE_TRI_ATTACK
         move MOVE_PSYCHIC
         move MOVE_THUNDERBOLT
@@ -22539,7 +22584,7 @@ trainerdata 669, "Mira"
         abilityslot 0
         level 61
         pokemon SPECIES_GENGAR
-        item ITEM_NONE
+        item 0
         move MOVE_SHADOW_BALL
         move MOVE_PSYCHIC
         move MOVE_SLUDGE_BOMB
@@ -22551,7 +22596,7 @@ trainerdata 669, "Mira"
         abilityslot 0
         level 62
         pokemon SPECIES_MAGNEZONE
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDER
         move MOVE_FLASH_CANNON
         move MOVE_THUNDER_WAVE
@@ -22563,7 +22608,7 @@ trainerdata 669, "Mira"
         abilityslot 0
         level 63
         pokemon SPECIES_TOGEKISS
-        item ITEM_NONE
+        item 0
         move MOVE_EXTREME_SPEED
         move MOVE_AIR_SLASH
         move MOVE_AURA_SPHERE
@@ -22589,8 +22634,8 @@ trainerdata 670, "Riley"
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22601,7 +22646,7 @@ trainerdata 670, "Riley"
         abilityslot 0
         level 61
         pokemon SPECIES_ABSOL
-        item ITEM_NONE
+        item 0
         move MOVE_PSYCHO_CUT
         move MOVE_NIGHT_SLASH
         move MOVE_SWORDS_DANCE
@@ -22613,7 +22658,7 @@ trainerdata 670, "Riley"
         abilityslot 0
         level 61
         pokemon SPECIES_URSARING
-        item ITEM_NONE
+        item 0
         move MOVE_AVALANCHE
         move MOVE_SLASH
         move MOVE_AERIAL_ACE
@@ -22625,7 +22670,7 @@ trainerdata 670, "Riley"
         abilityslot 0
         level 62
         pokemon SPECIES_METAGROSS
-        item ITEM_NONE
+        item 0
         move MOVE_METEOR_MASH
         move MOVE_ZEN_HEADBUTT
         move MOVE_HAMMER_ARM
@@ -22637,7 +22682,7 @@ trainerdata 670, "Riley"
         abilityslot 0
         level 63
         pokemon SPECIES_SALAMENCE
-        item ITEM_NONE
+        item 0
         move MOVE_DRAGON_CLAW
         move MOVE_CRUNCH
         move MOVE_FIRE_FANG
@@ -22663,8 +22708,8 @@ trainerdata 671, "Buck"
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22675,7 +22720,7 @@ trainerdata 671, "Buck"
         abilityslot 0
         level 61
         pokemon SPECIES_SHUCKLE
-        item ITEM_NONE
+        item 0
         move MOVE_REST
         move MOVE_TOXIC
         move MOVE_PROTECT
@@ -22687,7 +22732,7 @@ trainerdata 671, "Buck"
         abilityslot 0
         level 62
         pokemon SPECIES_UMBREON
-        item ITEM_NONE
+        item 0
         move MOVE_DARK_PULSE
         move MOVE_PSYCHIC
         move MOVE_CONFUSE_RAY
@@ -22699,7 +22744,7 @@ trainerdata 671, "Buck"
         abilityslot 0
         level 61
         pokemon SPECIES_TORKOAL
-        item ITEM_NONE
+        item 0
         move MOVE_EARTHQUAKE
         move MOVE_WILL_O_WISP
         move MOVE_ERUPTION
@@ -22711,7 +22756,7 @@ trainerdata 671, "Buck"
         abilityslot 0
         level 63
         pokemon SPECIES_DUSKNOIR
-        item ITEM_NONE
+        item 0
         move MOVE_FIRE_PUNCH
         move MOVE_ICE_PUNCH
         move MOVE_THUNDER_PUNCH
@@ -22736,9 +22781,9 @@ trainerdata 672, "Alfred"
     trainerclass CLASS_GENTLEMAN
     nummons 1
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22757,9 +22802,9 @@ trainerdata 673, "Alfred"
     trainerclass CLASS_GENTLEMAN
     nummons 1
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22778,9 +22823,9 @@ trainerdata 674, "Alfred"
     trainerclass CLASS_GENTLEMAN
     nummons 1
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22802,10 +22847,10 @@ trainerdata 675, "Lance"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PKMN_TRAINER_10
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22827,10 +22872,10 @@ trainerdata 676, "Parker"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAILOR
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22863,10 +22908,10 @@ trainerdata 677, "Eddie"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAILOR
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22888,10 +22933,10 @@ trainerdata 678, "Joy"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22913,10 +22958,10 @@ trainerdata 679, "Callie"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BEAUTY
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22949,10 +22994,10 @@ trainerdata 680, "Kassandra"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BEAUTY
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22985,10 +23030,10 @@ trainerdata 681, "Arabella"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23021,10 +23066,10 @@ trainerdata 682, "Bonita"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23057,10 +23102,10 @@ trainerdata 683, "Salma"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_F
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23083,7 +23128,7 @@ trainerdata 683, "Salma"
         abilityslot 0
         level 53
         pokemon SPECIES_LICKILICKY
-        item ITEM_NONE
+        item 0
         move MOVE_WRING_OUT
         move MOVE_THUNDERBOLT
         move MOVE_EARTHQUAKE
@@ -23095,10 +23140,10 @@ trainerdata 684, "Elan & Ida"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_DOUBLE_TEAM
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -23109,7 +23154,7 @@ trainerdata 684, "Elan & Ida"
         abilityslot 0
         level 52
         pokemon SPECIES_PORYGON2
-        item ITEM_NONE
+        item 0
         move MOVE_TRI_ATTACK
         move MOVE_CHARGE_BEAM
         move MOVE_PROTECT
@@ -23121,7 +23166,7 @@ trainerdata 684, "Elan & Ida"
         abilityslot 0
         level 50
         pokemon SPECIES_AZUMARILL
-        item ITEM_NONE
+        item 0
         move MOVE_WATERFALL
         move MOVE_AQUA_JET
         move MOVE_SUPERPOWER
@@ -23133,10 +23178,10 @@ trainerdata 685, "Edwin"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_HIKER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23158,10 +23203,10 @@ trainerdata 686, "Bryce"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BOARDER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23186,10 +23231,10 @@ trainerdata 687, "Shaun"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BOARDER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23214,10 +23259,10 @@ trainerdata 688, "Cady"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SKIER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23235,10 +23280,10 @@ trainerdata 689, "Cary"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23260,10 +23305,10 @@ trainerdata 690, "Waldo"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23285,10 +23330,10 @@ trainerdata 691, "Merle"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23310,10 +23355,10 @@ trainerdata 692, "Lowell"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCIENTIST_1
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23335,10 +23380,10 @@ trainerdata 693, "Linden"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCIENTIST_1
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23360,10 +23405,10 @@ trainerdata 694, "Daniel"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCIENTIST_1
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23385,10 +23430,10 @@ trainerdata 695, "Dane"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23413,10 +23458,10 @@ trainerdata 696, "Dion"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23434,10 +23479,10 @@ trainerdata 697, "Stacey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23469,10 +23514,10 @@ trainerdata 698, "Ellis"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23504,10 +23549,10 @@ trainerdata 699, "Abner"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23540,9 +23585,9 @@ trainerdata 700, "Giovanni"
     trainerclass CLASS_ROCKET_BOSS
     nummons 4
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23553,7 +23598,7 @@ trainerdata 700, "Giovanni"
         abilityslot 0
         level 42
         pokemon SPECIES_NIDOKING
-        item ITEM_NONE
+        item 0
         move MOVE_FOCUS_ENERGY
         move MOVE_FURY_ATTACK
         move MOVE_DOUBLE_KICK
@@ -23565,7 +23610,7 @@ trainerdata 700, "Giovanni"
         abilityslot 0
         level 40
         pokemon SPECIES_KANGASKHAN
-        item ITEM_NONE
+        item 0
         move MOVE_DIZZY_PUNCH
         move MOVE_SUCKER_PUNCH
         move MOVE_LEER
@@ -23577,7 +23622,7 @@ trainerdata 700, "Giovanni"
         abilityslot 0
         level 43
         pokemon SPECIES_HONCHKROW
-        item ITEM_NONE
+        item 0
         move MOVE_DARK_PULSE
         move MOVE_NASTY_PLOT
         move MOVE_SWAGGER
@@ -23589,7 +23634,7 @@ trainerdata 700, "Giovanni"
         abilityslot 0
         level 46
         pokemon SPECIES_NIDOQUEEN
-        item ITEM_NONE
+        item 0
         move MOVE_EARTH_POWER
         move MOVE_SUPERPOWER
         move MOVE_CRUNCH
@@ -23627,7 +23672,7 @@ trainerdata 701, "Lance"
         abilityslot 0
         level 68
         pokemon SPECIES_GYARADOS
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDER_WAVE
         move MOVE_ICE_FANG
         move MOVE_WATERFALL
@@ -23639,7 +23684,7 @@ trainerdata 701, "Lance"
         abilityslot 0
         level 72
         pokemon SPECIES_GARCHOMP
-        item ITEM_NONE
+        item 0
         move MOVE_SWORDS_DANCE
         move MOVE_OUTRAGE
         move MOVE_EARTHQUAKE
@@ -23651,7 +23696,7 @@ trainerdata 701, "Lance"
         abilityslot 0
         level 73
         pokemon SPECIES_ALTARIA
-        item ITEM_NONE
+        item 0
         move MOVE_PERISH_SONG
         move MOVE_DRAGON_BREATH
         move MOVE_DOUBLE_TEAM
@@ -23663,7 +23708,7 @@ trainerdata 701, "Lance"
         abilityslot 0
         level 68
         pokemon SPECIES_CHARIZARD
-        item ITEM_NONE
+        item 0
         move MOVE_FLAMETHROWER
         move MOVE_AIR_SLASH
         move MOVE_DRAGON_CLAW
@@ -23689,8 +23734,8 @@ trainerdata 702, "Will"
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23701,7 +23746,7 @@ trainerdata 702, "Will"
         abilityslot 0
         level 58
         pokemon SPECIES_BRONZONG
-        item ITEM_NONE
+        item 0
         move MOVE_REFLECT
         move MOVE_PAYBACK
         move MOVE_GRAVITY
@@ -23713,7 +23758,7 @@ trainerdata 702, "Will"
         abilityslot 0
         level 60
         pokemon SPECIES_JYNX
-        item ITEM_NONE
+        item 0
         move MOVE_FAKE_TEARS
         move MOVE_LOVELY_KISS
         move MOVE_BLIZZARD
@@ -23725,7 +23770,7 @@ trainerdata 702, "Will"
         abilityslot 0
         level 59
         pokemon SPECIES_GRUMPIG
-        item ITEM_NONE
+        item 0
         move MOVE_CONFUSE_RAY
         move MOVE_SIGNAL_BEAM
         move MOVE_POWER_GEM
@@ -23737,7 +23782,7 @@ trainerdata 702, "Will"
         abilityslot 0
         level 60
         pokemon SPECIES_SLOWBRO
-        item ITEM_NONE
+        item 0
         move MOVE_CURSE
         move MOVE_AMNESIA
         move MOVE_BODY_SLAM
@@ -23749,7 +23794,7 @@ trainerdata 702, "Will"
         abilityslot 0
         level 61
         pokemon SPECIES_GARDEVOIR
-        item ITEM_NONE
+        item 0
         move MOVE_FOCUS_BLAST
         move MOVE_CHARGE_BEAM
         move MOVE_CALM_MIND
@@ -23775,8 +23820,8 @@ trainerdata 703, "Koga"
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23787,7 +23832,7 @@ trainerdata 703, "Koga"
         abilityslot 0
         level 61
         pokemon SPECIES_SKUNTANK
-        item ITEM_NONE
+        item 0
         move MOVE_SUCKER_PUNCH
         move MOVE_DIG
         move MOVE_TOXIC
@@ -23799,7 +23844,7 @@ trainerdata 703, "Koga"
         abilityslot 0
         level 63
         pokemon SPECIES_VENOMOTH
-        item ITEM_NONE
+        item 0
         move MOVE_DOUBLE_TEAM
         move MOVE_BATON_PASS
         move MOVE_PSYCHIC
@@ -23811,7 +23856,7 @@ trainerdata 703, "Koga"
         abilityslot 0
         level 60
         pokemon SPECIES_TOXICROAK
-        item ITEM_NONE
+        item 0
         move MOVE_CROSS_CHOP
         move MOVE_X_SCISSOR
         move MOVE_SWAGGER
@@ -23835,7 +23880,7 @@ trainerdata 703, "Koga"
         abilityslot 0
         level 64
         pokemon SPECIES_CROBAT
-        item ITEM_NONE
+        item 0
         move MOVE_TOXIC
         move MOVE_MEAN_LOOK
         move MOVE_FLY
@@ -23861,8 +23906,8 @@ trainerdata 704, "Bruno"
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23873,7 +23918,7 @@ trainerdata 704, "Bruno"
         abilityslot 0
         level 62
         pokemon SPECIES_HITMONTOP
-        item ITEM_NONE
+        item 0
         move MOVE_COUNTER
         move MOVE_QUICK_ATTACK
         move MOVE_CLOSE_COMBAT
@@ -23885,7 +23930,7 @@ trainerdata 704, "Bruno"
         abilityslot 0
         level 61
         pokemon SPECIES_HITMONLEE
-        item ITEM_NONE
+        item 0
         move MOVE_SWAGGER
         move MOVE_CLOSE_COMBAT
         move MOVE_REVERSAL
@@ -23897,7 +23942,7 @@ trainerdata 704, "Bruno"
         abilityslot 0
         level 61
         pokemon SPECIES_HITMONCHAN
-        item ITEM_NONE
+        item 0
         move MOVE_SUBSTITUTE
         move MOVE_DRAIN_PUNCH
         move MOVE_CLOSE_COMBAT
@@ -23921,7 +23966,7 @@ trainerdata 704, "Bruno"
         abilityslot 0
         level 64
         pokemon SPECIES_MACHAMP
-        item ITEM_NONE
+        item 0
         move MOVE_BULLET_PUNCH
         move MOVE_FORESIGHT
         move MOVE_STONE_EDGE
@@ -23933,7 +23978,7 @@ trainerdata 704, "Bruno"
         abilityslot 0
         level 64
         pokemon SPECIES_LUCARIO
-        item ITEM_NONE
+        item 0
         move MOVE_EXTREME_SPEED
         move MOVE_CLOSE_COMBAT
         move MOVE_COUNTER
@@ -23947,8 +23992,8 @@ trainerdata 705, "Karen"
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23959,7 +24004,7 @@ trainerdata 705, "Karen"
         abilityslot 0
         level 62
         pokemon SPECIES_WEAVILE
-        item ITEM_NONE
+        item 0
         move MOVE_ICE_SHARD
         move MOVE_NIGHT_SLASH
         move MOVE_ICE_PUNCH
@@ -23971,7 +24016,7 @@ trainerdata 705, "Karen"
         abilityslot 0
         level 62
         pokemon SPECIES_SPIRITOMB
-        item ITEM_NONE
+        item 0
         move MOVE_CURSE
         move MOVE_CONFUSE_RAY
         move MOVE_PAIN_SPLIT
@@ -23983,7 +24028,7 @@ trainerdata 705, "Karen"
         abilityslot 0
         level 62
         pokemon SPECIES_ABSOL
-        item ITEM_NONE
+        item 0
         move MOVE_NIGHT_SLASH
         move MOVE_PSYCHO_CUT
         move MOVE_DETECT
@@ -23995,7 +24040,7 @@ trainerdata 705, "Karen"
         abilityslot 0
         level 64
         pokemon SPECIES_HONCHKROW
-        item ITEM_NONE
+        item 0
         move MOVE_DRILL_PECK
         move MOVE_WHIRLWIND
         move MOVE_SUCKER_PUNCH
@@ -24007,7 +24052,7 @@ trainerdata 705, "Karen"
         abilityslot 0
         level 63
         pokemon SPECIES_HOUNDOOM
-        item ITEM_NONE
+        item 0
         move MOVE_NASTY_PLOT
         move MOVE_DARK_PULSE
         move MOVE_FLAMETHROWER
@@ -24031,10 +24076,10 @@ trainerdata 706, "Proton"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_EXECUTIVE_1
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24067,10 +24112,10 @@ trainerdata 707, "Palmer"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TOWER_TYCOON
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24088,10 +24133,10 @@ trainerdata 708, "Argenta"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HALL_MATRON
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24109,10 +24154,10 @@ trainerdata 709, "Thorton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FACTORY_HEAD
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24130,10 +24175,10 @@ trainerdata 710, "Dahlia"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ARCADE_STAR
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24151,10 +24196,10 @@ trainerdata 711, "Darach"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CASTLE_VALET
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24175,7 +24220,7 @@ trainerdata 712, "Falkner"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24186,7 +24231,7 @@ trainerdata 712, "Falkner"
         abilityslot 0
         level 50
         pokemon SPECIES_STARAPTOR
-        item ITEM_NONE
+        item 0
         move MOVE_ATTRACT
         move MOVE_BRAVE_BIRD
         move MOVE_CLOSE_COMBAT
@@ -24198,7 +24243,7 @@ trainerdata 712, "Falkner"
         abilityslot 0
         level 52
         pokemon SPECIES_NOCTOWL
-        item ITEM_NONE
+        item 0
         move MOVE_ROOST
         move MOVE_AIR_SLASH
         move MOVE_SHADOW_BALL
@@ -24222,7 +24267,7 @@ trainerdata 712, "Falkner"
         abilityslot 0
         level 54
         pokemon SPECIES_HONCHKROW
-        item ITEM_NONE
+        item 0
         move MOVE_NIGHT_SLASH
         move MOVE_SUCKER_PUNCH
         move MOVE_THUNDER_WAVE
@@ -24234,7 +24279,7 @@ trainerdata 712, "Falkner"
         abilityslot 0
         level 48
         pokemon SPECIES_PELIPPER
-        item ITEM_NONE
+        item 0
         move MOVE_SURF
         move MOVE_TAILWIND
         move MOVE_ICE_BEAM
@@ -24246,7 +24291,7 @@ trainerdata 712, "Falkner"
         abilityslot 0
         level 56
         pokemon SPECIES_PIDGEOT
-        item ITEM_NONE
+        item 0
         move MOVE_RETURN
         move MOVE_DOUBLE_TEAM
         move MOVE_SWAGGER
@@ -24261,7 +24306,7 @@ trainerdata 713, "Bugsy"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24284,7 +24329,7 @@ trainerdata 713, "Bugsy"
         abilityslot 0
         level 48
         pokemon SPECIES_SHEDINJA
-        item ITEM_NONE
+        item 0
         move MOVE_TOXIC
         move MOVE_X_SCISSOR
         move MOVE_SHADOW_SNEAK
@@ -24296,7 +24341,7 @@ trainerdata 713, "Bugsy"
         abilityslot 0
         level 52
         pokemon SPECIES_YANMEGA
-        item ITEM_NONE
+        item 0
         move MOVE_DETECT
         move MOVE_BUG_BUZZ
         move MOVE_AIR_SLASH
@@ -24308,7 +24353,7 @@ trainerdata 713, "Bugsy"
         abilityslot 0
         level 55
         pokemon SPECIES_PINSIR
-        item ITEM_NONE
+        item 0
         move MOVE_EARTHQUAKE
         move MOVE_GUILLOTINE
         move MOVE_X_SCISSOR
@@ -24320,7 +24365,7 @@ trainerdata 713, "Bugsy"
         abilityslot 0
         level 54
         pokemon SPECIES_HERACROSS
-        item ITEM_NONE
+        item 0
         move MOVE_CLOSE_COMBAT
         move MOVE_MEGAHORN
         move MOVE_STONE_EDGE
@@ -24347,7 +24392,7 @@ trainerdata 714, "Whitney"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24358,7 +24403,7 @@ trainerdata 714, "Whitney"
         abilityslot 0
         level 52
         pokemon SPECIES_GIRAFARIG
-        item ITEM_NONE
+        item 0
         move MOVE_PSYCHIC
         move MOVE_SHADOW_BALL
         move MOVE_CALM_MIND
@@ -24370,7 +24415,7 @@ trainerdata 714, "Whitney"
         abilityslot 0
         level 50
         pokemon SPECIES_LICKILICKY
-        item ITEM_NONE
+        item 0
         move MOVE_WRING_OUT
         move MOVE_FLAMETHROWER
         move MOVE_ICE_BEAM
@@ -24382,7 +24427,7 @@ trainerdata 714, "Whitney"
         abilityslot 0
         level 54
         pokemon SPECIES_BIBAREL
-        item ITEM_NONE
+        item 0
         move MOVE_DOUBLE_TEAM
         move MOVE_CHARGE_BEAM
         move MOVE_SURF
@@ -24394,7 +24439,7 @@ trainerdata 714, "Whitney"
         abilityslot 0
         level 54
         pokemon SPECIES_DELCATTY
-        item ITEM_NONE
+        item 0
         move MOVE_FAKE_OUT
         move MOVE_ASSIST
         move MOVE_CALM_MIND
@@ -24406,7 +24451,7 @@ trainerdata 714, "Whitney"
         abilityslot 0
         level 52
         pokemon SPECIES_CLEFABLE
-        item ITEM_NONE
+        item 0
         move MOVE_BLIZZARD
         move MOVE_THUNDER
         move MOVE_FIRE_BLAST
@@ -24433,7 +24478,7 @@ trainerdata 715, "Morty"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24456,7 +24501,7 @@ trainerdata 715, "Morty"
         abilityslot 0
         level 52
         pokemon SPECIES_DUSKNOIR
-        item ITEM_NONE
+        item 0
         move MOVE_PAIN_SPLIT
         move MOVE_WILL_O_WISP
         move MOVE_SUBSTITUTE
@@ -24468,7 +24513,7 @@ trainerdata 715, "Morty"
         abilityslot 0
         level 52
         pokemon SPECIES_SABLEYE
-        item ITEM_NONE
+        item 0
         move MOVE_SUCKER_PUNCH
         move MOVE_BRICK_BREAK
         move MOVE_ICE_PUNCH
@@ -24480,7 +24525,7 @@ trainerdata 715, "Morty"
         abilityslot 0
         level 54
         pokemon SPECIES_MISMAGIUS
-        item ITEM_NONE
+        item 0
         move MOVE_PERISH_SONG
         move MOVE_MEAN_LOOK
         move MOVE_CONFUSE_RAY
@@ -24492,7 +24537,7 @@ trainerdata 715, "Morty"
         abilityslot 0
         level 57
         pokemon SPECIES_GENGAR
-        item ITEM_NONE
+        item 0
         move MOVE_HYPNOSIS
         move MOVE_CONFUSE_RAY
         move MOVE_SHADOW_BALL
@@ -24504,7 +24549,7 @@ trainerdata 715, "Morty"
         abilityslot 0
         level 57
         pokemon SPECIES_GENGAR
-        item ITEM_NONE
+        item 0
         move MOVE_SUBSTITUTE
         move MOVE_SHADOW_BALL
         move MOVE_THUNDERBOLT
@@ -24519,7 +24564,7 @@ trainerdata 716, "Pryce"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24530,7 +24575,7 @@ trainerdata 716, "Pryce"
         abilityslot 0
         level 56
         pokemon SPECIES_ABOMASNOW
-        item ITEM_NONE
+        item 0
         move MOVE_ICE_SHARD
         move MOVE_WOOD_HAMMER
         move MOVE_EARTHQUAKE
@@ -24554,7 +24599,7 @@ trainerdata 716, "Pryce"
         abilityslot 0
         level 52
         pokemon SPECIES_GLALIE
-        item ITEM_NONE
+        item 0
         move MOVE_PAYBACK
         move MOVE_TORMENT
         move MOVE_ATTRACT
@@ -24566,7 +24611,7 @@ trainerdata 716, "Pryce"
         abilityslot 0
         level 52
         pokemon SPECIES_FROSLASS
-        item ITEM_NONE
+        item 0
         move MOVE_ICE_SHARD
         move MOVE_CONFUSE_RAY
         move MOVE_ATTRACT
@@ -24578,7 +24623,7 @@ trainerdata 716, "Pryce"
         abilityslot 0
         level 54
         pokemon SPECIES_WALREIN
-        item ITEM_NONE
+        item 0
         move MOVE_HAIL
         move MOVE_BODY_SLAM
         move MOVE_SWAGGER
@@ -24605,7 +24650,7 @@ trainerdata 717, "Jasmine"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24616,7 +24661,7 @@ trainerdata 717, "Jasmine"
         abilityslot 0
         level 52
         pokemon SPECIES_METAGROSS
-        item ITEM_NONE
+        item 0
         move MOVE_METEOR_MASH
         move MOVE_BULLET_PUNCH
         move MOVE_GRAVITY
@@ -24628,7 +24673,7 @@ trainerdata 717, "Jasmine"
         abilityslot 0
         level 56
         pokemon SPECIES_MAGNEZONE
-        item ITEM_NONE
+        item 0
         move MOVE_ZAP_CANNON
         move MOVE_LOCK_ON
         move MOVE_MIRROR_COAT
@@ -24640,7 +24685,7 @@ trainerdata 717, "Jasmine"
         abilityslot 0
         level 52
         pokemon SPECIES_SKARMORY
-        item ITEM_NONE
+        item 0
         move MOVE_AIR_SLASH
         move MOVE_SPIKES
         move MOVE_NIGHT_SLASH
@@ -24652,7 +24697,7 @@ trainerdata 717, "Jasmine"
         abilityslot 0
         level 50
         pokemon SPECIES_BRONZONG
-        item ITEM_NONE
+        item 0
         move MOVE_GYRO_BALL
         move MOVE_HYPNOSIS
         move MOVE_DREAM_EATER
@@ -24664,7 +24709,7 @@ trainerdata 717, "Jasmine"
         abilityslot 0
         level 52
         pokemon SPECIES_EMPOLEON
-        item ITEM_NONE
+        item 0
         move MOVE_HYDRO_PUMP
         move MOVE_BLIZZARD
         move MOVE_AQUA_JET
@@ -24676,7 +24721,7 @@ trainerdata 717, "Jasmine"
         abilityslot 0
         level 62
         pokemon SPECIES_STEELIX
-        item ITEM_NONE
+        item 0
         move MOVE_STONE_EDGE
         move MOVE_STEALTH_ROCK
         move MOVE_ROAR
@@ -24691,7 +24736,7 @@ trainerdata 718, "Chuck"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24714,7 +24759,7 @@ trainerdata 718, "Chuck"
         abilityslot 0
         level 52
         pokemon SPECIES_HITMONCHAN
-        item ITEM_NONE
+        item 0
         move MOVE_MACH_PUNCH
         move MOVE_SWAGGER
         move MOVE_FOCUS_PUNCH
@@ -24726,7 +24771,7 @@ trainerdata 718, "Chuck"
         abilityslot 0
         level 55
         pokemon SPECIES_HITMONLEE
-        item ITEM_NONE
+        item 0
         move MOVE_HIGH_JUMP_KICK
         move MOVE_FAKE_OUT
         move MOVE_BLAZE_KICK
@@ -24750,7 +24795,7 @@ trainerdata 718, "Chuck"
         abilityslot 0
         level 56
         pokemon SPECIES_PRIMEAPE
-        item ITEM_NONE
+        item 0
         move MOVE_CLOSE_COMBAT
         move MOVE_PAYBACK
         move MOVE_THUNDER_PUNCH
@@ -24777,7 +24822,7 @@ trainerdata 719, "Clair"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24800,7 +24845,7 @@ trainerdata 719, "Clair"
         abilityslot 0
         level 52
         pokemon SPECIES_DRAGONAIR
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDER_WAVE
         move MOVE_DRAGON_RUSH
         move MOVE_THUNDERBOLT
@@ -24812,7 +24857,7 @@ trainerdata 719, "Clair"
         abilityslot 0
         level 52
         pokemon SPECIES_AERODACTYL
-        item ITEM_NONE
+        item 0
         move MOVE_EARTHQUAKE
         move MOVE_THUNDER_FANG
         move MOVE_ROCK_SLIDE
@@ -24824,7 +24869,7 @@ trainerdata 719, "Clair"
         abilityslot 0
         level 56
         pokemon SPECIES_KINGDRA
-        item ITEM_NONE
+        item 0
         move MOVE_YAWN
         move MOVE_HYDRO_PUMP
         move MOVE_ICE_BEAM
@@ -24836,7 +24881,7 @@ trainerdata 719, "Clair"
         abilityslot 0
         level 52
         pokemon SPECIES_CHARIZARD
-        item ITEM_NONE
+        item 0
         move MOVE_SHADOW_CLAW
         move MOVE_AIR_SLASH
         move MOVE_DRAGON_CLAW
@@ -24863,7 +24908,7 @@ trainerdata 720, "Brock"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24874,7 +24919,7 @@ trainerdata 720, "Brock"
         abilityslot 0
         level 55
         pokemon SPECIES_GOLEM
-        item ITEM_NONE
+        item 0
         move MOVE_SANDSTORM
         move MOVE_ROCK_SLIDE
         move MOVE_ROCK_POLISH
@@ -24898,7 +24943,7 @@ trainerdata 720, "Brock"
         abilityslot 0
         level 56
         pokemon SPECIES_OMASTAR
-        item ITEM_NONE
+        item 0
         move MOVE_ANCIENT_POWER
         move MOVE_BRINE
         move MOVE_PROTECT
@@ -24922,7 +24967,7 @@ trainerdata 720, "Brock"
         abilityslot 0
         level 55
         pokemon SPECIES_KABUTOPS
-        item ITEM_NONE
+        item 0
         move MOVE_ROCK_SLIDE
         move MOVE_AQUA_JET
         move MOVE_ENDURE
@@ -24934,7 +24979,7 @@ trainerdata 720, "Brock"
         abilityslot 0
         level 57
         pokemon SPECIES_RAMPARDOS
-        item ITEM_NONE
+        item 0
         move MOVE_EARTHQUAKE
         move MOVE_STONE_EDGE
         move MOVE_AVALANCHE
@@ -24949,7 +24994,7 @@ trainerdata 721, "Misty"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24972,7 +25017,7 @@ trainerdata 721, "Misty"
         abilityslot 0
         level 56
         pokemon SPECIES_QUAGSIRE
-        item ITEM_NONE
+        item 0
         move MOVE_WATER_PULSE
         move MOVE_AMNESIA
         move MOVE_EARTHQUAKE
@@ -24984,7 +25029,7 @@ trainerdata 721, "Misty"
         abilityslot 0
         level 56
         pokemon SPECIES_LAPRAS
-        item ITEM_NONE
+        item 0
         move MOVE_SURF
         move MOVE_PERISH_SONG
         move MOVE_BLIZZARD
@@ -24996,7 +25041,7 @@ trainerdata 721, "Misty"
         abilityslot 0
         level 54
         pokemon SPECIES_LANTURN
-        item ITEM_NONE
+        item 0
         move MOVE_CONFUSE_RAY
         move MOVE_THUNDERBOLT
         move MOVE_SURF
@@ -25008,7 +25053,7 @@ trainerdata 721, "Misty"
         abilityslot 0
         level 54
         pokemon SPECIES_FLOATZEL
-        item ITEM_NONE
+        item 0
         move MOVE_AGILITY
         move MOVE_ICE_FANG
         move MOVE_WATERFALL
@@ -25020,7 +25065,7 @@ trainerdata 721, "Misty"
         abilityslot 0
         level 60
         pokemon SPECIES_MILOTIC
-        item ITEM_NONE
+        item 0
         move MOVE_HYDRO_PUMP
         move MOVE_ICE_BEAM
         move MOVE_REST
@@ -25035,7 +25080,7 @@ trainerdata 722, "Lt. Surge"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25046,7 +25091,7 @@ trainerdata 722, "Lt. Surge"
         abilityslot 0
         level 60
         pokemon SPECIES_RAICHU
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDER_WAVE
         move MOVE_QUICK_ATTACK
         move MOVE_THUNDERBOLT
@@ -25070,7 +25115,7 @@ trainerdata 722, "Lt. Surge"
         abilityslot 0
         level 52
         pokemon SPECIES_MAGNEZONE
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDERBOLT
         move MOVE_DOUBLE_TEAM
         move MOVE_MAGNET_RISE
@@ -25082,7 +25127,7 @@ trainerdata 722, "Lt. Surge"
         abilityslot 0
         level 52
         pokemon SPECIES_ELECTRODE
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDER_WAVE
         move MOVE_DOUBLE_TEAM
         move MOVE_THUNDERBOLT
@@ -25094,7 +25139,7 @@ trainerdata 722, "Lt. Surge"
         abilityslot 0
         level 58
         pokemon SPECIES_PACHIRISU
-        item ITEM_NONE
+        item 0
         move MOVE_QUICK_ATTACK
         move MOVE_SUPER_FANG
         move MOVE_DISCHARGE
@@ -25121,7 +25166,7 @@ trainerdata 723, "Erika"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25132,7 +25177,7 @@ trainerdata 723, "Erika"
         abilityslot 0
         level 54
         pokemon SPECIES_SHIFTRY
-        item ITEM_NONE
+        item 0
         move MOVE_LEAF_STORM
         move MOVE_SUCKER_PUNCH
         move MOVE_EXPLOSION
@@ -25144,7 +25189,7 @@ trainerdata 723, "Erika"
         abilityslot 0
         level 53
         pokemon SPECIES_JUMPLUFF
-        item ITEM_NONE
+        item 0
         move MOVE_U_TURN
         move MOVE_MEMENTO
         move MOVE_SLEEP_POWDER
@@ -25168,7 +25213,7 @@ trainerdata 723, "Erika"
         abilityslot 0
         level 56
         pokemon SPECIES_BELLOSSOM
-        item ITEM_NONE
+        item 0
         move MOVE_SUNNY_DAY
         move MOVE_SOLAR_BEAM
         move MOVE_GIGA_DRAIN
@@ -25180,7 +25225,7 @@ trainerdata 723, "Erika"
         abilityslot 0
         level 60
         pokemon SPECIES_TANGROWTH
-        item ITEM_NONE
+        item 0
         move MOVE_SWORDS_DANCE
         move MOVE_POWER_WHIP
         move MOVE_ROCK_SLIDE
@@ -25192,7 +25237,7 @@ trainerdata 723, "Erika"
         abilityslot 0
         level 55
         pokemon SPECIES_ROSERADE
-        item ITEM_NONE
+        item 0
         move MOVE_WEATHER_BALL
         move MOVE_ENERGY_BALL
         move MOVE_SLUDGE_BOMB
@@ -25207,7 +25252,7 @@ trainerdata 724, "Janine"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25218,7 +25263,7 @@ trainerdata 724, "Janine"
         abilityslot 0
         level 52
         pokemon SPECIES_CROBAT
-        item ITEM_NONE
+        item 0
         move MOVE_HEAT_WAVE
         move MOVE_CROSS_POISON
         move MOVE_CONFUSE_RAY
@@ -25230,7 +25275,7 @@ trainerdata 724, "Janine"
         abilityslot 0
         level 56
         pokemon SPECIES_WEEZING
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDERBOLT
         move MOVE_SLUDGE_BOMB
         move MOVE_TOXIC
@@ -25242,7 +25287,7 @@ trainerdata 724, "Janine"
         abilityslot 0
         level 52
         pokemon SPECIES_TOXICROAK
-        item ITEM_NONE
+        item 0
         move MOVE_CROSS_CHOP
         move MOVE_POISON_JAB
         move MOVE_ATTRACT
@@ -25254,7 +25299,7 @@ trainerdata 724, "Janine"
         abilityslot 0
         level 58
         pokemon SPECIES_ARIADOS
-        item ITEM_NONE
+        item 0
         move MOVE_TOXIC
         move MOVE_BOUNCE
         move MOVE_SWAGGER
@@ -25278,7 +25323,7 @@ trainerdata 724, "Janine"
         abilityslot 0
         level 55
         pokemon SPECIES_DRAPION
-        item ITEM_NONE
+        item 0
         move MOVE_CROSS_POISON
         move MOVE_CONFUSE_RAY
         move MOVE_CRUNCH
@@ -25293,7 +25338,7 @@ trainerdata 725, "Sabrina"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25304,7 +25349,7 @@ trainerdata 725, "Sabrina"
         abilityslot 0
         level 60
         pokemon SPECIES_ALAKAZAM
-        item ITEM_NONE
+        item 0
         move MOVE_GRAVITY
         move MOVE_FOCUS_BLAST
         move MOVE_ENERGY_BALL
@@ -25316,7 +25361,7 @@ trainerdata 725, "Sabrina"
         abilityslot 0
         level 58
         pokemon SPECIES_ESPEON
-        item ITEM_NONE
+        item 0
         move MOVE_CALM_MIND
         move MOVE_BATON_PASS
         move MOVE_SHADOW_BALL
@@ -25328,7 +25373,7 @@ trainerdata 725, "Sabrina"
         abilityslot 0
         level 56
         pokemon SPECIES_MR_MIME
-        item ITEM_NONE
+        item 0
         move MOVE_REFLECT
         move MOVE_SKILL_SWAP
         move MOVE_THUNDER
@@ -25340,7 +25385,7 @@ trainerdata 725, "Sabrina"
         abilityslot 0
         level 54
         pokemon SPECIES_JYNX
-        item ITEM_NONE
+        item 0
         move MOVE_BLIZZARD
         move MOVE_PERISH_SONG
         move MOVE_PSYCHIC
@@ -25352,7 +25397,7 @@ trainerdata 725, "Sabrina"
         abilityslot 0
         level 53
         pokemon SPECIES_WOBBUFFET
-        item ITEM_NONE
+        item 0
         move MOVE_COUNTER
         move MOVE_MIRROR_COAT
         move MOVE_DESTINY_BOND
@@ -25379,7 +25424,7 @@ trainerdata 726, "Blaine"
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25390,7 +25435,7 @@ trainerdata 726, "Blaine"
         abilityslot 0
         level 54
         pokemon SPECIES_TORKOAL
-        item ITEM_NONE
+        item 0
         move MOVE_SUNNY_DAY
         move MOVE_YAWN
         move MOVE_BODY_SLAM
@@ -25402,7 +25447,7 @@ trainerdata 726, "Blaine"
         abilityslot 0
         level 57
         pokemon SPECIES_CAMERUPT
-        item ITEM_NONE
+        item 0
         move MOVE_EARTHQUAKE
         move MOVE_ERUPTION
         move MOVE_SOLAR_BEAM
@@ -25414,7 +25459,7 @@ trainerdata 726, "Blaine"
         abilityslot 0
         level 60
         pokemon SPECIES_RAPIDASH
-        item ITEM_NONE
+        item 0
         move MOVE_MEGAHORN
         move MOVE_QUICK_ATTACK
         move MOVE_OVERHEAT
@@ -25426,7 +25471,7 @@ trainerdata 726, "Blaine"
         abilityslot 0
         level 58
         pokemon SPECIES_MAGCARGO
-        item ITEM_NONE
+        item 0
         move MOVE_CURSE
         move MOVE_GYRO_BALL
         move MOVE_OVERHEAT
@@ -25438,7 +25483,7 @@ trainerdata 726, "Blaine"
         abilityslot 0
         level 54
         pokemon SPECIES_HOUNDOOM
-        item ITEM_NONE
+        item 0
         move MOVE_SHADOW_BALL
         move MOVE_DARK_PULSE
         move MOVE_FLAMETHROWER
@@ -25450,7 +25495,7 @@ trainerdata 726, "Blaine"
         abilityslot 0
         level 62
         pokemon SPECIES_MAGMORTAR
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDERBOLT
         move MOVE_LOW_KICK
         move MOVE_FLAMETHROWER
@@ -25476,7 +25521,7 @@ trainerdata 727, "Blue"
         abilityslot 0
         level 67
         pokemon SPECIES_EXEGGUTOR
-        item ITEM_NONE
+        item 0
         move MOVE_LEAF_STORM
         move MOVE_PSYCHIC
         move MOVE_EXPLOSION
@@ -25500,7 +25545,7 @@ trainerdata 727, "Blue"
         abilityslot 0
         level 70
         pokemon SPECIES_RHYPERIOR
-        item ITEM_NONE
+        item 0
         move MOVE_MEGAHORN
         move MOVE_STONE_EDGE
         move MOVE_THUNDER_FANG
@@ -25512,7 +25557,7 @@ trainerdata 727, "Blue"
         abilityslot 0
         level 68
         pokemon SPECIES_ARCANINE
-        item ITEM_NONE
+        item 0
         move MOVE_FLARE_BLITZ
         move MOVE_EXTREME_SPEED
         move MOVE_THUNDER_FANG
@@ -25524,7 +25569,7 @@ trainerdata 727, "Blue"
         abilityslot 0
         level 70
         pokemon SPECIES_TYRANITAR
-        item ITEM_NONE
+        item 0
         move MOVE_LOW_KICK
         move MOVE_FIRE_FANG
         move MOVE_ROCK_SLIDE
@@ -25548,10 +25593,10 @@ trainerdata 728, "Charlotte"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25569,10 +25614,10 @@ trainerdata 729, "Duff & Eda"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNG_COUPLE
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -25597,10 +25642,10 @@ trainerdata 730, "Thom & Kae"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_DOUBLE_TEAM
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -25633,10 +25678,10 @@ trainerdata 731, "Devin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25668,10 +25713,10 @@ trainerdata 732, "Grant"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25698,8 +25743,8 @@ trainerdata 733, "Lance"
     nummons 3
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25710,7 +25755,7 @@ trainerdata 733, "Lance"
         abilityslot 0
         level 68
         pokemon SPECIES_GYARADOS
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDER_WAVE
         move MOVE_ICE_FANG
         move MOVE_WATERFALL
@@ -25722,7 +25767,7 @@ trainerdata 733, "Lance"
         abilityslot 0
         level 68
         pokemon SPECIES_CHARIZARD
-        item ITEM_NONE
+        item 0
         move MOVE_FLAMETHROWER
         move MOVE_AIR_SLASH
         move MOVE_DRAGON_CLAW
@@ -25734,7 +25779,7 @@ trainerdata 733, "Lance"
         abilityslot 0
         level 75
         pokemon SPECIES_DRAGONITE
-        item ITEM_NONE
+        item 0
         move MOVE_FIRE_PUNCH
         move MOVE_SAFEGUARD
         move MOVE_DRACO_METEOR
@@ -25748,8 +25793,8 @@ trainerdata 734, "Clair"
     nummons 3
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25760,7 +25805,7 @@ trainerdata 734, "Clair"
         abilityslot 0
         level 52
         pokemon SPECIES_DRAGONAIR
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDER_WAVE
         move MOVE_DRAGON_RUSH
         move MOVE_THUNDERBOLT
@@ -25772,7 +25817,7 @@ trainerdata 734, "Clair"
         abilityslot 0
         level 56
         pokemon SPECIES_KINGDRA
-        item ITEM_NONE
+        item 0
         move MOVE_YAWN
         move MOVE_HYDRO_PUMP
         move MOVE_ICE_BEAM
@@ -25784,7 +25829,7 @@ trainerdata 734, "Clair"
         abilityslot 0
         level 60
         pokemon SPECIES_DRAGONITE
-        item ITEM_NONE
+        item 0
         move MOVE_THUNDER
         move MOVE_PROTECT
         move MOVE_DRAGON_BREATH
@@ -25798,8 +25843,8 @@ trainerdata 735, "Silver"
     nummons 3
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25810,7 +25855,7 @@ trainerdata 735, "Silver"
         abilityslot 0
         level 60
         pokemon SPECIES_MEGANIUM
-        item ITEM_NONE
+        item 0
         move MOVE_PETAL_DANCE
         move MOVE_BODY_SLAM
         move MOVE_LIGHT_SCREEN
@@ -25822,7 +25867,7 @@ trainerdata 735, "Silver"
         abilityslot 0
         level 58
         pokemon SPECIES_CROBAT
-        item ITEM_NONE
+        item 0
         move MOVE_TOXIC
         move MOVE_BITE
         move MOVE_CONFUSE_RAY
@@ -25834,7 +25879,7 @@ trainerdata 735, "Silver"
         abilityslot 0
         level 56
         pokemon SPECIES_GENGAR
-        item ITEM_NONE
+        item 0
         move MOVE_DARK_PULSE
         move MOVE_SLUDGE_BOMB
         move MOVE_SHADOW_BALL
@@ -25848,8 +25893,8 @@ trainerdata 736, "Silver"
     nummons 3
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25860,7 +25905,7 @@ trainerdata 736, "Silver"
         abilityslot 0
         level 60
         pokemon SPECIES_TYPHLOSION
-        item ITEM_NONE
+        item 0
         move MOVE_ROLLOUT
         move MOVE_FLAMETHROWER
         move MOVE_WILL_O_WISP
@@ -25872,7 +25917,7 @@ trainerdata 736, "Silver"
         abilityslot 0
         level 58
         pokemon SPECIES_CROBAT
-        item ITEM_NONE
+        item 0
         move MOVE_TOXIC
         move MOVE_BITE
         move MOVE_CONFUSE_RAY
@@ -25884,7 +25929,7 @@ trainerdata 736, "Silver"
         abilityslot 0
         level 56
         pokemon SPECIES_GENGAR
-        item ITEM_NONE
+        item 0
         move MOVE_DARK_PULSE
         move MOVE_SLUDGE_BOMB
         move MOVE_SHADOW_BALL
@@ -25898,8 +25943,8 @@ trainerdata 737, "Silver"
     nummons 3
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
+    item 0
+    item 0
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25910,7 +25955,7 @@ trainerdata 737, "Silver"
         abilityslot 0
         level 60
         pokemon SPECIES_FERALIGATR
-        item ITEM_NONE
+        item 0
         move MOVE_CRUNCH
         move MOVE_AQUA_TAIL
         move MOVE_SLASH
@@ -25922,7 +25967,7 @@ trainerdata 737, "Silver"
         abilityslot 0
         level 58
         pokemon SPECIES_CROBAT
-        item ITEM_NONE
+        item 0
         move MOVE_TOXIC
         move MOVE_BITE
         move MOVE_CONFUSE_RAY
@@ -25934,7 +25979,7 @@ trainerdata 737, "Silver"
         abilityslot 0
         level 56
         pokemon SPECIES_GENGAR
-        item ITEM_NONE
+        item 0
         move MOVE_DARK_PULSE
         move MOVE_SLUDGE_BOMB
         move MOVE_SHADOW_BALL
