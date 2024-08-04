@@ -460,11 +460,17 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     }
 
     //handle victory star
-    /* Victory Star now boosts accuracy by 20% rather than 10 % */
+    /* Victory Star now boosts accuracy by 20% rather than 10% */
     if ((GetBattlerAbility(sp, BATTLER_ALLY(attacker)) == ABILITY_VICTORY_STAR && sp->battlemon[BATTLER_ALLY(attacker)].hp != 0)
      || (atk_ability == ABILITY_VICTORY_STAR))
     {
         accuracy = accuracy * 120 / 100;
+    }
+
+    /* Keen Eye now boosts accuracy by 10% in addition to its other effects */
+    if (atk_ability == ABILITY_KEEN_EYE)
+    {
+        accuracy = accuracy * 110 / 100;
     }
 
     if ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) == 0)
