@@ -325,5 +325,8 @@
 #define ABILITY_TERAFORM_ZERO 309
 #define ABILITY_POISON_PUPPETEER 310
 
+// Custom abilities
+#define ABILITY_DRAGON_SKIN 311
+
 
 #endif

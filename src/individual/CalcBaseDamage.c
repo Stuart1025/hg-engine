@@ -248,7 +248,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 15 / 10;
 
     // handle technician
-    if ((AttackingMon.ability == ABILITY_TECHNICIAN) && (moveno != MOVE_STRUGGLE) && (movepower <= 60))
+    // Technician now boosts struggle
+    if ((AttackingMon.ability == ABILITY_TECHNICIAN) && (movepower <= 60))
         movepower = movepower * 15 / 10;
 
     movesplit = GetMoveSplit(sp, moveno);
@@ -316,12 +317,17 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if (AttackingMon.item_held_effect == HOLD_EFFECT_CHOICE_SPATK)
         sp_attack = sp_attack * 150 / 100;
 
-    // handle soul dew - gen 7 changes it to just boost movepower if the type is dragon or psychic, no more defense boost
+    /* Soul Dew now works like it did before gen 7 */
     if ((AttackingMon.item_held_effect == HOLD_EFFECT_LATI_SPECIAL)
-     && ((AttackingMon.species == SPECIES_LATIOS) || (AttackingMon.species == SPECIES_LATIAS))
-     && (movetype == TYPE_DRAGON || movetype == TYPE_PSYCHIC))
+     && ((AttackingMon.species == SPECIES_LATIOS) || (AttackingMon.species == SPECIES_LATIAS)))
     {
-        movepower = movepower * 120 / 100; // 4915/4096
+        sp_attack = sp_attack * 150 / 100;
+    }
+
+    if ((DefendingMon.item_held_effect == HOLD_EFFECT_LATI_SPECIAL)
+     && ((DefendingMon.species == SPECIES_LATIOS) || (DefendingMon.species == SPECIES_LATIAS)))
+    {
+        sp_defense = sp_defense * 150 / 100;
     }
 
     // handle deep sea tooth
@@ -559,9 +565,10 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // handle transistor
+    // Transistor back to 50% boost
     if (AttackingMon.ability == ABILITY_TRANSISTOR && (movetype == TYPE_ELECTRIC))
     {
-        movepower = movepower * 130 / 100;
+        movepower = movepower * 150 / 100;
     }
 
     // handle rocky payload
@@ -642,10 +649,20 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
             movepower = movepower * 120 / 100;
         }
 
+        // handle dragon skin - 20% boost if a normal type move was changed to an dragon type move.  does not boost dragon type moves themselves
+        if (AttackingMon.ability == ABILITY_DRAGON_SKIN && movetype == TYPE_DRAGON && sp->moveTbl[moveno].type == TYPE_NORMAL) {
+            movepower = movepower * 120 / 100;
+        }
+
         // handle normalize - 20% boost if a normal type move is used (and it changes types to normal too)
         if (AttackingMon.ability == ABILITY_NORMALIZE && movetype == TYPE_NORMAL) {
             movepower = movepower * 120 / 100;
         }
+    }
+
+    /* Liquid Voice now boosts sound moves by 20% in addition to turning them into Water moves */
+    if (AttackingMon.ability == ABILITY_LIQUID_VOICE && IsMoveSoundBased(moveno)) {
+        movepower = movepower * 120 / 100;
     }
 
     // handle heatproof/dry skin
@@ -1025,7 +1042,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
                 damage = damage * 130 / 100;
             }
             break;
+        /* Misty Terrain now boosts the power of Fairy-type moves by 30% in addition to its other effects */
         case MISTY_TERRAIN:
+            if (IsClientGrounded(sp, attacker) && movetype == TYPE_FAIRY) {
+                damage = damage * 130 / 100;
+
             if (IsClientGrounded(sp, defender) && movetype == TYPE_DRAGON) {
                 damage /= 2;
             }

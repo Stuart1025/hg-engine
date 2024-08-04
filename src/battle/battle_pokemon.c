@@ -1093,6 +1093,10 @@ u32 LONG_CALL GetAdjustedMoveTypeBasics(struct BattleStruct *sp, u32 move, u32 a
         {
             typeLocal = TYPE_ELECTRIC;
         }
+        else if (ability == ABILITY_DRAGON_SKIN)
+        {
+            typeLocal = TYPE_DRAGON;
+        }
         else // needs to be for sure initialized
         {
             typeLocal = TYPE_NORMAL;

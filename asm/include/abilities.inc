@@ -323,4 +323,8 @@
 .equ ABILITY_TERAFORM_ZERO, 309
 .equ ABILITY_POISON_PUPPETEER, 310
 
+// Custom abilities
+.equ ABILITY_DRAGON_SKIN, 311
+
+
 .endif
