@@ -982,6 +982,292 @@ party 20
     ballseal 2
 endparty
 
+/******************************************** Route 32 ********************************************/
+
+trainerdata 49, "Albert"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_YOUNGSTER
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 49
+    ivs 0
+    abilityslot 0
+    level 11
+    monwithform SPECIES_RATTATA, 1
+    item 0
+    move MOVE_TACKLE
+    move MOVE_FOCUS_ENERGY
+    move MOVE_QUICK_ATTACK
+    move 0
+    ability ABILITY_HUSTLE
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 27, "Liz"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_PICNICKER
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 27
+    ivs 0
+    abilityslot 0
+    level 11
+    pokemon SPECIES_NIDORAN_F
+    item 0
+    move MOVE_POISON_FANG
+    move MOVE_DOUBLE_KICK
+    move MOVE_SCRATCH
+    move MOVE_GROWL
+    ability ABILITY_POISON_POINT
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 26, "Roland"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_CAMPER
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 26
+    ivs 0
+    abilityslot 0
+    level 11
+    pokemon SPECIES_NIDORAN_M
+    item 0
+    move MOVE_POISON_FANG
+    move MOVE_DOUBLE_KICK
+    move MOVE_LEER
+    move MOVE_PECK
+    ability ABILITY_POISON_POINT
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0 
+endparty
+
+trainerdata 60, "Henry"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_FISHERMAN
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 60
+    ivs 0
+    abilityslot 0
+    level 11
+    pokemon SPECIES_POLIWAG
+    item 0
+    move MOVE_WATER_GUN
+    move MOVE_HYPNOSIS
+    move MOVE_MUD_SHOT
+    move MOVE_POUND
+    ability ABILITY_WATER_ABSORB
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 18, "Justin"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_FISHERMAN
+    nummons 2
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 18
+    ivs 0
+    abilityslot 0
+    level 11
+    pokemon SPECIES_MAGIKARP
+    item 0
+    move MOVE_TACKLE
+    move 0
+    move 0
+    move 0
+    ability ABILITY_SWIFT_SWIM
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 16
+    pokemon SPECIES_MAGIKARP
+    item 0
+    move MOVE_TACKLE
+    move MOVE_HYDRO_PUMP
+    move 0
+    move 0
+    ability ABILITY_SWIFT_SWIM
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+    endparty
+
+trainerdata 57, "Ralph"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_FISHERMAN
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 57
+    ivs 0
+    abilityslot 0
+    level 12
+    pokemon SPECIES_GOLDEEN
+    item 0
+    move MOVE_HORN_ATTACK
+    move MOVE_PECK
+    move MOVE_QUICK_ATTACK
+    move MOVE_SUPERSONIC
+    ability ABILITY_WATER_VEIL
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 56, "Gordon"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_YOUNGSTER
+    nummons 2
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 56
+    ivs 0
+    abilityslot 0
+    level 12
+    pokemon SPECIES_WOOPER
+    item 0
+    move MOVE_WATER_PULSE
+    move MOVE_MUD_SHOT
+    move MOVE_ACID_SPRAY
+    move 0
+    ability ABILITY_WATER_ABSORB
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 12
+    monwithform SPECIES_WOOPER, 1
+    item 0
+    move MOVE_POISON_TAIL
+    move MOVE_MUD_SHOT
+    move MOVE_ACID_SPRAY
+    move 0
+    ability ABILITY_WATER_ABSORB
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 383, "Peter"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_BIRD_KEEPER_1
+    nummons 1
+    item 0
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 383
+    ivs 0
+    abilityslot 0
+    level 13
+    pokemon SPECIES_MURKROW
+    item 0
+    move MOVE_ASTONISH
+    move MOVE_WING_ATTACK
+    move MOVE_HAZE
+    move 0
+    ability ABILITY_INSOMNIA
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/************ Rematches ************/
+
 trainerdata 5, "Victoria"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
@@ -1346,48 +1632,6 @@ trainerdata 17, "Kenji"
         ballseal 0
     endparty
 
-trainerdata 18, "Justin"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_FISHERMAN
-    nummons 4
-    item 0
-    item 0
-    item 0
-    item 0
-    aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 18
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 5
-        pokemon SPECIES_MAGIKARP
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 5
-        pokemon SPECIES_MAGIKARP
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 15
-        pokemon SPECIES_MAGIKARP
-        ballseal 0
-
-        // mon 3
-        ivs 0
-        abilityslot 0
-        level 5
-        pokemon SPECIES_MAGIKARP
-        ballseal 0
-    endparty
-
 trainerdata 19, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
@@ -1572,48 +1816,6 @@ trainerdata 25, "Russel"
         abilityslot 0
         level 8
         pokemon SPECIES_GEODUDE
-        ballseal 0
-    endparty
-
-trainerdata 26, "Roland"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_CAMPER
-    nummons 1
-    item 0
-    item 0
-    item 0
-    item 0
-    aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 26
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 9
-        pokemon SPECIES_NIDORAN_M
-        ballseal 0
-    endparty
-
-trainerdata 27, "Liz"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_PICNICKER
-    nummons 1
-    item 0
-    item 0
-    item 0
-    item 0
-    aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 27
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 8
-        pokemon SPECIES_NIDORAN_F
         ballseal 0
     endparty
 
@@ -2325,34 +2527,6 @@ trainerdata 48, "Rob"
         ballseal 0
     endparty
 
-trainerdata 49, "Albert"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_YOUNGSTER
-    nummons 2
-    item 0
-    item 0
-    item 0
-    item 0
-    aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 49
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 6
-        pokemon SPECIES_RATTATA
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 8
-        pokemon SPECIES_ZUBAT
-        ballseal 0
-    endparty
-
 trainerdata 50, "Abe"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
@@ -2479,48 +2653,6 @@ trainerdata 55, "Neal"
         ballseal 0
     endparty
 
-trainerdata 56, "Gordon"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_YOUNGSTER
-    nummons 1
-    item 0
-    item 0
-    item 0
-    item 0
-    aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 56
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 10
-        pokemon SPECIES_WOOPER
-        ballseal 0
-    endparty
-
-trainerdata 57, "Ralph"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_FISHERMAN
-    nummons 1
-    item 0
-    item 0
-    item 0
-    item 0
-    aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 57
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 10
-        pokemon SPECIES_GOLDEEN
-        ballseal 0
-    endparty
-
 trainerdata 58, "Arnold"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
@@ -2574,34 +2706,6 @@ trainerdata 59, "Kyle"
         abilityslot 0
         level 39
         pokemon SPECIES_GOLDEEN
-        ballseal 0
-    endparty
-
-trainerdata 60, "Henry"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_FISHERMAN
-    nummons 2
-    item 0
-    item 0
-    item 0
-    item 0
-    aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 60
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 8
-        pokemon SPECIES_POLIWAG
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 8
-        pokemon SPECIES_POLIWAG
         ballseal 0
     endparty
 
@@ -13520,41 +13624,6 @@ trainerdata 382, "Hillary"
         abilityslot 0
         level 31
         pokemon SPECIES_AIPOM
-        ballseal 0
-    endparty
-
-trainerdata 383, "Peter"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_BIRD_KEEPER_1
-    nummons 3
-    item 0
-    item 0
-    item 0
-    item 0
-    aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 383
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 6
-        pokemon SPECIES_PIDGEY
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 6
-        pokemon SPECIES_PIDGEY
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 8
-        pokemon SPECIES_SPEAROW
         ballseal 0
     endparty
 

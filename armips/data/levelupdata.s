@@ -629,7 +629,7 @@ levelup SPECIES_NIDOQUEEN
 
 levelup SPECIES_NIDORAN_M
     learnset MOVE_POISON_STING, 1
-    learnset MOVE_GROWL, 1
+    learnset MOVE_LEER, 1
     learnset MOVE_PECK, 3
     learnset MOVE_FOCUS_ENERGY, 6
     learnset MOVE_POISON_FANG, 9
@@ -648,7 +648,7 @@ levelup SPECIES_NIDORAN_M
 
 levelup SPECIES_NIDORINO
     learnset MOVE_POISON_STING, 1
-    learnset MOVE_GROWL, 1
+    learnset MOVE_LEER, 1
     learnset MOVE_PECK, 1
     learnset MOVE_FOCUS_ENERGY, 1
     learnset MOVE_POISON_FANG, 9
@@ -670,7 +670,7 @@ levelup SPECIES_NIDOKING
     learnset MOVE_BULLDOZE, 1
     learnset MOVE_THRASH, 1
     learnset MOVE_POISON_STING, 1
-    learnset MOVE_GROWL, 1
+    learnset MOVE_LEER, 1
     learnset MOVE_PECK, 1
     learnset MOVE_FOCUS_ENERGY, 1
     learnset MOVE_POISON_FANG, 9
