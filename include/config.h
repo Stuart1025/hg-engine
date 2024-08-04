@@ -31,11 +31,11 @@
 
 // MEGA_EVOLUTIONS defines whether or not Pokémon that are able to mega evolve will be able to do so.
 // commenting this line out essentially disables mega evolutions and maintains default behavior with respect to them.  leaving this as-is will introduce mega evolutions when applied to the game.
-#define MEGA_EVOLUTIONS
+//#define MEGA_EVOLUTIONS
 
 // PRIMAL_REVERSION defines whether or not Kyogre and Groudon, when holding their orbs, will be able to change form when sent out in battle.
 // commenting this line out essentially disables primal reversion.  leaving this as-is will introduce primal reversions when applied to the game.
-#define PRIMAL_REVERSION
+//#define PRIMAL_REVERSION
 
 // ITEM_POCKET_EXPANSION defines whether or not item pockets will be given extra slots in the save in order to provide space for new items that are implemented
 // commenting this line out will prevent the item pockets from being expanded for the new items
@@ -68,7 +68,7 @@
 // IMPLEMENT_LEVEL_CAP defines whether or not a configurable hard level cap system is built into the rom based on the value in LEVEL_CAP_VARIABLE
 // if the level is greater than or equal to LEVEL_CAP_VARIABLE, the pokémon will no longer gain experience
 // uncommenting IMPLEMENT_LEVEL_CAP enables the level cap system.  undefining LEVEL_CAP_VARIABLE will just cause compilation errors
-//#define IMPLEMENT_LEVEL_CAP
+#define IMPLEMENT_LEVEL_CAP
 #define LEVEL_CAP_VARIABLE 0x416F
 
 // UPDATE_OVERWORLD_POISON will remove overworld poison if enabled
@@ -77,7 +77,7 @@
 
 // DISABLE_END_OF_TURN_WEATHER_MESSAGE removes the weather messages at the end of the turn.  instead the bottom screen icon can be used
 // uncomment the line out to get this functionality
-//#define DISABLE_END_OF_TURN_WEATHER_MESSAGE
+#define DISABLE_END_OF_TURN_WEATHER_MESSAGE
 
 // EXPAND_PC_BOXES will expand the amount of pc boxes if enabled to 30
 // comment out the line below to keep the max at 18
