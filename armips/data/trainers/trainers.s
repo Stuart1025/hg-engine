@@ -2066,7 +2066,7 @@ party 269
     abilityslot 0
     level 19
     pokemon SPECIES_CROCONAW
-    item ITEM_MYSTIC_WATER
+    item 0
     move MOVE_AQUA_JET
     move MOVE_BITE
     move MOVE_SCARY_FACE
